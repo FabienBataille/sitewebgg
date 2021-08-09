@@ -1,0 +1,89 @@
+.list4,
+.list4 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.list4 li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+.list4 ul li {
+  display: inherit;
+  border-radius: 0;
+}
+.list4 ul li:hover {
+  border-radius: 0;
+}
+.list4 ul li:last-child {
+  border-radius: 0 0 8px 8px;
+}
+.list4 ul {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  max-height: 0;
+  
+
+  overflow: hidden;
+  -moz-transition: 0s all 0s;
+  -webkit-transition: 0s all 0s;
+  transition: 0s all 0s;
+}
+.list4 li:hover ul {
+  max-height: 15em;
+  width: 150px;
+  background-image: linear-gradient(
+    to bottom,
+    #58595b,
+    #a0a0a0)
+}
+/* background des liens menus */
+.list4 li:first-child {
+  color: #ffffff;
+}
+
+/* background des liens sous menus */
+.list4 li:first-child li {
+  color: #ffffff;
+}
+
+/* les a href */
+
+.list4 ul a {
+  padding: 8px 0;
+}
+
+.list4 li:hover a,
+.list4 li li:hover a {
+  color: #ffffff;
+}
+
+.first{
+  margin-top: 5px;
+}
+
+h6{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+h6:hover{
+  color: #cf790f;
+}
+
+.titre{
+ margin-bottom: -5px;
+ padding-bottom: 5px; 
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.titre:hover{
+  font-weight: bold;
+}

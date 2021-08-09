@@ -1,0 +1,91 @@
+.list,
+.list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.list li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+.list ul li {
+  display: inherit;
+  border-radius: 0;
+}
+.list ul li:hover {
+  border-radius: 0;
+}
+.list ul li:last-child {
+  border-radius: 0 0 8px 8px;
+}
+.list ul {
+  position: absolute;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  max-height: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  -moz-transition: 0.1s all 0s;
+  -webkit-transition: 0s all 0s;
+  transition: 0.1s all 0s;
+}
+.list li:hover ul {
+  max-height: 15em;
+  width: 150px;
+  background-image: linear-gradient(
+    to bottom,
+    #58595b,
+    #a0a0a0)
+}
+/* background des liens menus */
+.list li:first-child {
+  color: #ffffff;
+}
+
+/* background des liens sous menus */
+.list li:first-child li {
+  color: #ffffff;
+}
+
+/* les a href */
+
+.list ul a {
+  padding: 8px 0;
+}
+
+.list li:hover a,
+.list li li:hover a {
+  color: #ffffff;
+}
+
+.first{
+  margin-top: 5px;
+}
+
+h6{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+h6:hover{
+  color: #cf790f;
+}
+
+.titre{
+ margin-bottom: -5px;
+ padding-bottom: 5px; 
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.titre:hover{
+  font-weight: bold;
+}
+

@@ -1,0 +1,64 @@
+
+
+.Header{
+    display: flex;
+    background-image: url("../images/background-header.jpeg");
+
+}
+
+.logo_generale{
+    width: 30vw;
+    padding-top: 5px;
+}
+
+.nav_bar{
+    width: 70vw;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+
+}
+
+.gg{
+    width: 150px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.homeIcon{
+    width: 40px;
+}
+
+.tagIcon{
+    border: none;
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    }
+
+li{
+    margin-bottom: 0px;
+    padding-top: 12px;
+}
+
+.mailIcon{
+    border: none;
+    background: none;
+    padding-top: 8px;
+    width: 30px;
+}
+
