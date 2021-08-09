@@ -69,9 +69,14 @@
 
 h6{
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 11px;
   cursor: pointer;
+}
+
+.second{
+  padding: 0px;
+  height: 30px;
 }
 
 h6:hover{
@@ -87,5 +92,10 @@ h6:hover{
 
 .titre:hover{
   font-weight: bold;
+}
+
+Link{
+  border: solid;
+  margin-top: 0px;
 }
 

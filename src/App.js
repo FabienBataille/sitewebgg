@@ -44,7 +44,7 @@ function App() {
             <Route exact path="/fabrication">
               <Fabrication />
             </Route>
-            <Route exact path="presentation-voirie">
+            <Route exact path="/presentation-voirie">
               <PresentationVoirie />
             </Route>
             <Route exact path="/dalles">
@@ -65,13 +65,13 @@ function App() {
             <Route exact path="/escaliers">
               <Escaliers />
             </Route>
-            <Route exact path="/revetement">
+            <Route exact path="/revetement-de-sol">
               <Revetement />
             </Route>
-            <Route exact path="/revetement-verticaux">
+            <Route exact path="/revetements-verticaux">
               <RevetementV />
             </Route>
-            <Route exact path="/mobiliers">
+            <Route exact path="/mobiliers-urbains">
               <Mobiliers />
             </Route>
             <Route exact path="/artistique">
@@ -83,10 +83,10 @@ function App() {
             <Route exact path="/origines">
               <Origines />
             </Route>
-            <Route exact path="/voirie">
+            <Route exact path="/granit-voirie">
               <Voirie />
             </Route>
-            <Route exact path="/batiment">
+            <Route exact path="/granit-batiment">
               <Batiment />
             </Route>
             <Route exact path="/contact">

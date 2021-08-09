@@ -22,7 +22,7 @@
 }
 .list2 ul {
   position: absolute;
-  left: -33px;
+  left: -15px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
@@ -37,7 +37,7 @@
 
 .list2 li:hover ul {
   max-height: 15em;
-  width: 100px;
+  width: 80px;
   background-image: linear-gradient(
     to bottom,
     #58595b,
@@ -73,6 +73,11 @@ h6{
   margin-bottom: 10px;
   font-size: 11px;
   cursor: pointer;
+}
+
+.second{
+  padding: 0px;
+  height: 30px;
 }
 
 h6:hover{
