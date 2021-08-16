@@ -92,3 +92,11 @@ h1{
 .adresse{
     margin-top: -10px;
 }
+
+.Footer{
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    
+}

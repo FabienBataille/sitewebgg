@@ -17,6 +17,7 @@ function PresentationBatiment() {
     <div className='PresentationBatiment'>
       <h1>PRÉSENTATION</h1>
       <Swiper
+      className="allCarousel"
       spaceBetween={50}
       slidesPerview={3}
       autoplay={true}
@@ -25,11 +26,11 @@ function PresentationBatiment() {
       /*scrollbar={{ draggable: true }}*/
       onSwiper={() => console.log('Swiper')}
       onSlideChange={() => console.log('slide change')}>
-          <SwiperSlide><img src={photo1} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={photo2} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={photo3} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={photo4} alt="" /></SwiperSlide>
-          <SwiperSlide><img src={photo5} alt="" /></SwiperSlide>
+          <SwiperSlide className="photo"><img src={photo1} alt="" /></SwiperSlide>
+          <SwiperSlide className="photo"><img src={photo2} alt="" /></SwiperSlide>
+          <SwiperSlide className="photo"><img src={photo3} alt="" /></SwiperSlide>
+          <SwiperSlide className="photo"><img src={photo4} alt="" /></SwiperSlide>
+          <SwiperSlide className="photo"><img src={photo5} alt="" /></SwiperSlide>
       </Swiper>
     </div>
   );

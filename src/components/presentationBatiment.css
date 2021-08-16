@@ -1,7 +1,9 @@
-.swper-container {
-  width: 500px;
+.photo  img{
+  width: 600px;
+  height: 450px;
+  margin-bottom: 30px;;
 }
 
-.swiper-wrapper{
-  padding-inline-start: 0
+.allCarousel{
+  margin-bottom: 69px;
 }
