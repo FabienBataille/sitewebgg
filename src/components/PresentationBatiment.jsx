@@ -30,7 +30,7 @@ function PresentationBatiment() {
         slidesPerview={3}
         autoplay={true}
         /*navigation*/
-        pagination={{ clickable: true }}
+        /*pagination={{ clickable: true }}*/
         thumbs={{ swiper: thumbsSwiper }}
         /*scrollbar={{ draggable: true }}*/
         onSwiper={() => console.log('Swiper')}

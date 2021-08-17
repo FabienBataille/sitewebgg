@@ -1,21 +1,23 @@
-.photo  img{
-  width: 600px;
-  height: 450px;
-  margin-bottom: 30px;;
+.photo img {
+  width: 800px;
+  height: 600px;
+  margin-bottom: 30px;
 }
 
-.vignette img{
-  width: 45px;
-  border: solid;
-  
+.vignette img {
+  width: 70px;
+  height: 50px;
+  margin: 0px;
 }
 
-.allCarousel{
-  margin-bottom: 75px;
+.vignette {
+  margin-left: -80px;
+}
+
+.allCarousel {
+  margin-bottom: 50px;
 }
 
 .a{
-  border: solid;
-  width: 1000px;
-  height: 60px;
+  margin-bottom: 20px;
 }
