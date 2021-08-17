@@ -1,5 +1,5 @@
 .Home{
-  background-image: url("../images/fond_monumentalistes.jpg");
+  background-image: url("../images/fond2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34,9 +34,9 @@
   border: solid #9d9e9e 1px;
   border-radius: 10px;;
   width: 225px;
-  height: 450px;
+  height: 550px;
   margin-left: 40px;
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: #6b6c6e;
   overflow: scroll;
   
@@ -83,7 +83,8 @@ aside{
   align-items: center;
 }
 
-.separation2{
+.separation_horizontale{
   height: 1px;
   width: 190px;
+  margin-bottom: 10px;
 }
