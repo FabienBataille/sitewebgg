@@ -1,0 +1,89 @@
+.Home{
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.actu3{
+  width: 200px;
+  height: 112px;
+}
+
+.actu2{
+  width: 200px;
+  height: 267px;
+}
+
+.actu1{
+  width: 200px;
+  height: 267px;
+}
+
+.photo img{
+  width: 600px;
+  height: 450px;
+  margin-top: 50px;;
+}
+
+.allCarousel{
+  width: 75%;
+  height: 550px;
+}
+
+.actualites{
+  border: solid #9d9e9e 1px;
+  border-radius: 10px;;
+  width: 225px;
+  height: 450px;
+  margin-left: 40px;
+  margin-top: 50px;
+  background-color: #6b6c6e;
+  overflow: scroll;
+  
+}
+-webkit-scrollbar {
+  display: none;
+}
+
+.actualites p{
+  color: #ffffff;
+  width: 200px;
+  text-align: justify;
+}
+
+.actualites h6{
+  color: #ebd6d6;
+}
+
+aside{
+  width: 25%;
+  text-align: center;
+  height: 550px;
+}
+
+.corps{
+  display: flex;
+}
+
+.article1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.separation2{
+  height: 1px;
+  width: 190px;
+}

@@ -1,0 +1,9 @@
+.Mobiliers{
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.test{
+  margin-top: 500px;
+}
