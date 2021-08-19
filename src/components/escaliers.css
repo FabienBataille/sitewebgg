@@ -8,8 +8,19 @@
   display: flex;
   justify-content: space-around;
   margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .vignette{
   margin-left: 1px;
+}
+
+.allCarousel{
+  margin-top: 0px;
+}
+
+.photo img{
+  margin-top: 30px;
+  border-radius: 10px
 }

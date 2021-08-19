@@ -26,6 +26,40 @@ function Escaliers() {
   return (
     <div className='PresentationBatiment'>
       <Swiper
+       className="a"
+        onSwiper={setThumbsSwiper}
+        spaceBetween={30}
+        slidesPerView={8}
+        freeMode={true}
+        watchSlidesVisibility={true}
+        watchSlidesProgress={true}
+      >
+        <SwiperSlide className='vignette'>
+          <img src={escaliers1} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette'>
+          <img src={escaliers2} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette'>
+          <img src={escaliers3} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette'>
+          <img src={escaliers4} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette'>
+          <img src={escaliers5} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette'>
+          <img src={escaliers6} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette'>
+          <img src={escaliers7} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette'>
+          <img src={escaliers8} alt='' />
+        </SwiperSlide>
+      </Swiper>
+      <Swiper
         className='allCarousel'
         effect='fade'
         spaceBetween={50}
@@ -60,40 +94,6 @@ function Escaliers() {
           <img src={escaliers7} alt='' />
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers8} alt='' />
-        </SwiperSlide>
-      </Swiper>
-      <Swiper
-       className="a"
-        onSwiper={setThumbsSwiper}
-        spaceBetween={30}
-        slidesPerView={8}
-        freeMode={true}
-        watchSlidesVisibility={true}
-        watchSlidesProgress={true}
-      >
-        <SwiperSlide className='vignette'>
-          <img src={escaliers1} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette'>
-          <img src={escaliers2} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette'>
-          <img src={escaliers3} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette'>
-          <img src={escaliers4} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette'>
-          <img src={escaliers5} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette'>
-          <img src={escaliers6} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette'>
-          <img src={escaliers7} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette'>
           <img src={escaliers8} alt='' />
         </SwiperSlide>
       </Swiper>
