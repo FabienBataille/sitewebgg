@@ -1,0 +1,15 @@
+.Escaliers {
+  background-image: url('../images/fond2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.a{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+.vignette{
+  margin-left: 1px;
+}
