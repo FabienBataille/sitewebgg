@@ -24,9 +24,9 @@ function Escaliers() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <div className='PresentationBatiment'>
+    <div className='Escaliers'>
       <Swiper
-       className="a"
+        className='a'
         onSwiper={setThumbsSwiper}
         spaceBetween={30}
         slidesPerView={8}
@@ -73,28 +73,68 @@ function Escaliers() {
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide className='photo'>
-          <img src={escaliers1} alt='' />
+          <div className='container'>
+            <img src={escaliers1} alt='' />
+            <div className='title'>
+              Escalier Intérieur mémorial Colville sur mer
+            </div>
+            <div className='text'>Type granit : Cachemir White flammé</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers2} alt='' />
+          <div className='container'>
+            <img src={escaliers2} alt='' />
+            <div className='title'>Emmarchement Pays-Bas</div>
+            <div className='text'>Type granit : Lanhelin flammé</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers3} alt='' />
+          <div className='container'>
+            <img src={escaliers3} alt='' />
+            <div className='title'>Escalier métro Rennes République</div>
+            <div className='text'>Type granit : Louvigné flammé</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers4} alt='' />
+          <div className='container'>
+            <img src={escaliers4} alt='' />
+            <div className='title'>La Défense Paris</div>
+            <div className='text'>Type granit : Lanhelin flammé</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers5} alt='' />
+          <div className='container'>
+            <img src={escaliers5} alt='' />
+            <div className='title'>
+              Escalier extérieur avenue de France PARIS
+            </div>
+            <div className='text'>Type granit : Jaune Aurore grenaillé</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers6} alt='' />
+          <div className='container'>
+            <img src={escaliers6} alt='' />
+            <div className='title'>Escalier Opéra Bastille Paris</div>
+            <div className='text'>Type granit : Lanhelin flammé</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers7} alt='' />
+          <div className='container'>
+            <img src={escaliers7} alt='' />
+            <div className='title'>
+              Escalier/ bancs Mémorial Colleville Sur Mer
+            </div>
+            <div className='text'>Type granit : Cachemir White flammé</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className='photo'>
-          <img src={escaliers8} alt='' />
+          <div className='container'>
+            <img src={escaliers8} alt='' />
+            <div className='title'>
+              Escalier extérieur avenue de France PARIS
+            </div>
+            <div className='text'>Type granit : Jaune Aurore grenaillé</div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
