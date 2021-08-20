@@ -9,14 +9,14 @@ import SwiperCore, {
 } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './escaliers.css';
-import escaliers1 from '../escaliers_photos/escaliers1.jpeg';
-import escaliers2 from '../escaliers_photos/escaliers2.jpeg';
-import escaliers3 from '../escaliers_photos/escaliers3.jpeg';
-import escaliers4 from '../escaliers_photos/escaliers4.jpeg';
-import escaliers5 from '../escaliers_photos/escaliers5.jpeg';
-import escaliers6 from '../escaliers_photos/escaliers6.jpeg';
-import escaliers7 from '../escaliers_photos/escaliers7.jpeg';
-import escaliers8 from '../escaliers_photos/escaliers8.jpeg';
+import escaliers1 from '../escaliers_photos/Escaliers1.jpg';
+import escaliers2 from '../escaliers_photos/Escaliers2.jpg';
+import escaliers3 from '../escaliers_photos/Escaliers3.jpg';
+import escaliers4 from '../escaliers_photos/Escaliers4.jpg';
+import escaliers5 from '../escaliers_photos/Escaliers5.jpg';
+import escaliers6 from '../escaliers_photos/Escaliers6.jpg';
+import escaliers7 from '../escaliers_photos/Escaliers7.jpg';
+import escaliers8 from '../escaliers_photos/Escaliers8.jpg';
 
 SwiperCore.use([Navigation, Pagination, Autoplay, Thumbs, EffectFade]);
 
@@ -137,6 +137,16 @@ function Escaliers() {
           </div>
         </SwiperSlide>
       </Swiper>
+      <div className='text-fixe'>
+        <p>
+          La réalisation d’un escalier est le point d’orgue d’un projet. Il
+          valorise l’espace,<br /> le choix des matériaux est ainsi un point
+          essentiel.<br />
+          Pour que cet escalier soit unique et mémorable, nos experts sont à
+          votre disposition pour vous conseiller (type du granits, texture,
+          accessibilité, normes).
+        </p>
+      </div>
     </div>
   );
 }
