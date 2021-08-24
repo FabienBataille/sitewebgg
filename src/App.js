@@ -10,7 +10,7 @@ import Bornes from './components/Bornes'
 import Bordures from './components/Bordures'
 import Paves from './components/Paves'
 import Escaliers from './components/Escaliers'
-import Revetement from './components/Revetement'
+import RevetementSol from './components/RevetementSol'
 import RevetementV from './components/RevetementV'
 import PresentationBatiment from './components/PresentationBatiment'
 import Mobiliers from './components/Mobiliers'
@@ -66,7 +66,7 @@ function App() {
               <Escaliers />
             </Route>
             <Route exact path="/revetement-de-sol">
-              <Revetement />
+              <RevetementSol />
             </Route>
             <Route exact path="/revetements-verticaux">
               <RevetementV />

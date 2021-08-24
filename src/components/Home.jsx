@@ -57,7 +57,7 @@ function Home() {
           </div>
         </aside>
         <Swiper
-          className='allCarousel'
+          className='allCarousel-home'
           effect='fade'
           spaceBetween={50}
           slidesPerview={3}
@@ -68,27 +68,27 @@ function Home() {
           onSwiper={() => console.log('Swiper')}
           onSlideChange={() => console.log('slide change')}
         >
-          <SwiperSlide className='photo'>
-            <div className='container'>
+          <SwiperSlide className='photo-home'>
+            <div className='container-home'>
               <img src={photo1} alt='' />
-              <div className='text'>
+              <div className='text-home'>
                 Monument commémoratif en mémoire des victimes de la SHOA pour la
                 ville de Luxembourg.
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className='photo'>
-            <div className='container'>
+          <SwiperSlide className='photo-home'>
+            <div className='container-home'>
               <img src={photo2} alt='' />
-              <div className='text'>
+              <div className='text-home'>
                 Abords du Stade de foot du FC Krasnodar en RUSSIE
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className='photo'>
-            <div className='container'>
+          <SwiperSlide className='photo-home'>
+            <div className='container-home'>
               <img src={photo3} alt='' />
-              <div className='text'>Dallage Hôtel de ville Vincennes</div>
+              <div className='text-home'>Dallage Hôtel de ville Vincennes</div>
             </div>
           </SwiperSlide>
         </Swiper>

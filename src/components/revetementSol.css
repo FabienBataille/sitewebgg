@@ -1,4 +1,4 @@
-.Escaliers {
+.RevetementSol {
   text-align: center;
   background-image: url('../images/fond2.jpg');
   background-repeat: no-repeat;
@@ -6,7 +6,7 @@
   height: 650px;
 }
 
-.a{
+.a-sol{
   display: flex;
   justify-content: space-around;
   margin-right: 10px;
@@ -15,27 +15,27 @@
   margin-bottom: 0px;
 }
 
-.vignette{
+.vignette-sol{
   margin-left: 1px;
 }
 
-.allCarousel-escaliers{
+.allCarousel-sol{
   margin-top: 0px;
   height: 500px;
 }
 
-.photo-escaliers img{
+.photo-sol img{
   margin-top: 30px;
   border-radius: 10px;
   margin-bottom: 0px;
   width: 500px;
 }
 
-.container-escaliers {
+.container-sol {
   position: relative;
 }
 
-.title-escaliers {
+.title-sol {
   font-size: small;
   font-weight: bold;
   position: relative;
@@ -49,7 +49,7 @@
   transition: opacity 0.5s ease;
 }
 
-.text-escaliers {
+.text-sol {
   font-size: small;
   position: relative;
   left: 262px;
@@ -63,7 +63,7 @@
   transition: opacity 0.5s ease;
 }
 
-.text-fixe-escaliers p{
+.text-fixe-sol p{
   color: black;
   width: 750px;
   margin-top: 0px;
@@ -71,7 +71,7 @@
   font-size: 20px;
 }
 
-.text-fixe-escaliers{
+.text-fixe-sol{
   display: flex;
   flex-direction: column;
   align-items: center;
