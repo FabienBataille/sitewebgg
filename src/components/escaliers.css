@@ -3,7 +3,7 @@
   background-image: url('../images/fond2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 600px;
 }
 
 .a{
@@ -66,9 +66,9 @@
 .text-fixe-escaliers p{
   color: black;
   width: 750px;
-  margin-top: 0px;
+  margin-top: -10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .text-fixe-escaliers{

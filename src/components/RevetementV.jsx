@@ -9,8 +9,12 @@ import SwiperCore, {
 } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './revetementV.css';
-import sol1 from '../sols/sol1.jpeg';
-import sol2 from '../sols/sol2.jpeg';
+import verticaux1 from '../verticaux/verticaux1.jpeg';
+import verticaux2 from '../verticaux/verticaux2.jpeg';
+import verticaux3 from '../verticaux/verticaux3.jpeg';
+import verticaux4 from '../verticaux/verticaux4.jpeg';
+import verticaux5 from '../verticaux/verticaux5.jpeg';
+import verticaux6 from '../verticaux/verticaux6.jpeg';
 
 SwiperCore.use([Navigation, Pagination, Autoplay, Thumbs, EffectFade]);
 
@@ -23,20 +27,33 @@ function RevetementV() {
         className='a-verticaux'
         onSwiper={setThumbsSwiper}
         spaceBetween={30}
-        slidesPerView={2}
+        slidesPerView={6 }
         freeMode={true}
         watchSlidesVisibility={true}
         watchSlidesProgress={true}
+        autoplay={{ onclick: true }}
       >
-        <SwiperSlide className='vignette-sol'>
-          <img src={sol1} alt='' />
+        <SwiperSlide className='vignette-verticaux'>
+          <img src={verticaux1} alt='' />
         </SwiperSlide>
-        <SwiperSlide className='vignette-sol'>
-          <img src={sol2} alt='' />
+        <SwiperSlide className='vignette-verticaux'>
+          <img src={verticaux2} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette-verticaux'>
+          <img src={verticaux3} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette-verticaux'>
+          <img src={verticaux4} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette-verticaux'>
+          <img src={verticaux5} alt='' />
+        </SwiperSlide>
+        <SwiperSlide className='vignette-verticaux'>
+          <img src={verticaux6} alt='' />
         </SwiperSlide>
       </Swiper>
       <Swiper
-        className='allCarousel-sol'
+        className='allCarousel-verticaux'
         effect='fade'
         spaceBetween={50}
         slidesPerview={3}
@@ -48,32 +65,58 @@ function RevetementV() {
         onSwiper={() => console.log('Swiper')}
         onSlideChange={() => console.log('slide change')}
       >
-        <SwiperSlide className='photo-sol'>
-          <div className='container-sol'>
-            <img src={sol1} alt='' />
-            <div className='title-sol'>Hall d'entrée Champs Libres Rennes</div>
-            <div className='text-sol'>Type granit : Lanhelin adouci</div>
+        <SwiperSlide className='photo-verticaux'>
+          <div className='container-verticaux'>
+            <img src={verticaux1} alt='' />
+            <div className='title-verticaux'>Cour européenne de justice, Luxembourg</div>
+            <div className='text-verticaux'>Type granit : Rose clarté finition adouci</div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='photo-sol'>
-          <div className='container-sol'>
-            <img src={sol2} alt='' />
-            <div className='title-sol'>Revêtement 50 avenue Montaigne</div>
-            <div className='text-sol'>
-              Type granit : Lanhelin | Giallo Vénéziano poli, adouci, bouchardé
-            </div>
+        <SwiperSlide className='photo-verticaux'>
+          <div className='container-verticaux'>
+            <img src={verticaux2} alt='' />
+            <div className='title-verticaux'>Gare de Monaco</div>
+            <div className='text-verticaux'>Type granit : Marbre et verre soudé et poli</div>
           </div>
+        </SwiperSlide>
+        <SwiperSlide className='photo-verticaux'>
+          <div className='container-verticaux'>
+            <img src={verticaux3} alt='' />
+            <div className='title-verticaux'>Mémorial de Colleville Sur Mer</div>
+            <div className='text-verticaux'>Type granit : Noir d’Afrique finition flammé</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='photo-verticaux'>
+          <div className='container-verticaux'>
+            <img src={verticaux4} alt='' />
+            <div className='title-verticaux'>Dinan</div>
+            <div className='text-verticaux'>Type granit : Jaune Aurore flammé</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='photo-verticaux'>
+          <div className='container-verticaux'>
+            <img src={verticaux5} alt='' />
+            <div className='title-verticaux'>Extérieur Mémorial Colleville sur mer</div>
+            <div className='text-verticaux'>Type granit : Noir d’Afrique finition flammé</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='photo-verticaux'>
+          <div className='container-verticaux'>
+            <img src={verticaux6} alt='' />
+            <div className='title-verticaux'>Métro Rennes Sainte Anne</div>
+            <div className='text-verticaux'>Type granit : Jaune Aurore adouci</div>
+          </div>
+
         </SwiperSlide>
       </Swiper>
-      <div className='text-fixe-sol'>
+      <div className='text-fixe-verticaux'>
         <p>
-          Le choix d’un dallage vous offre l’opportunité de créer une atmosphère
-          qui sera l’âme de votre projet. Les différentes finitions que nous
-          proposons (poli, adouci, flammé, grenaillé…) permettent de répondre à
-          tous les projets de revêtements intérieurs. Investir dans le granit
-          est un gage de pérennité assuré. Que votre aménagement intérieur soit
-          traditionnel ou contemporain, le granit est le matériau noble qui
-          saura vous ravir.
+        Le revêtement vertical en granit offre, en plus d’une qualité esthétique, la possibilité d’intégrer l’isolation par l’extérieur.
+Cette approche permet de ne pas modifier les surfaces intérieures tout en mettant en conformité les anciens bâtiments.
+Nous sélectionnons les meilleurs granits afin de vous offrir un large spectre de couleurs. La gamme que nous proposons est le fruit d’une sélection constante des meilleurs granits.
+Différentes finitions sont possibles :
+poli, adouci, flammé, grenaillé, brossé diamant.
+Concernant les dimensions et les fixations, notre équipe accompagnera l’architecte qui aura en charge votre projet.
         </p>
       </div>
     </div>
