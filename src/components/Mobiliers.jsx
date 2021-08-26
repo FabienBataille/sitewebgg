@@ -1,11 +1,11 @@
 import React from 'react'
 import './mobiliers.css'
+import Bancs from './Bancs.jsx'
 
 function Mobiliers() {
     return (
         <div className="Mobiliers">
-            <h1>MOBILIERS URBAINS</h1>
-            <p className="test">ipnbob^miyvluiyvtolychjfkjkhkyftvulfc utfylv </p>
+            <Bancs />
         </div>
     )
 }
