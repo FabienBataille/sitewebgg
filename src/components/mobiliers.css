@@ -3,3 +3,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.menu h1{
+  color: black;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.presentationMobiliers{
+  width: 900px;
+  color: black;
+  text-align: center;
+  border: solid;
+  margin: auto;
+  font-size: 16px;
+  margin-top: 20px;
+}

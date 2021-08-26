@@ -13,7 +13,9 @@ import Escaliers from './components/Escaliers'
 import RevetementSol from './components/RevetementSol'
 import RevetementV from './components/RevetementV'
 import PresentationBatiment from './components/PresentationBatiment'
-import Mobiliers from './components/Mobiliers'
+import MobiliersBancs from './components/MobiliersBancs'
+import MobiliersMurets from './components/MobiliersMurets'
+import MobiliersFontaines from './components/MobiliersFontaines'
 import PresentationVoirie from './components/PresentationVoirie'
 import Artistique from './components/Artistique'
 import Decorations from './components/Decorations'
@@ -71,8 +73,14 @@ function App() {
             <Route exact path="/revetements-verticaux">
               <RevetementV />
             </Route>
-            <Route exact path="/mobiliers-urbains">
-              <Mobiliers />
+            <Route exact path="/mobiliers-bancs">
+              <MobiliersBancs />
+            </Route>
+            <Route exact path="/mobiliers-murets">
+              <MobiliersMurets />
+            </Route>
+            <Route exact path="/mobiliers-fontaines">
+              <MobiliersFontaines />
             </Route>
             <Route exact path="/artistique">
               <Artistique />
