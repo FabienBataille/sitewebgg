@@ -56,33 +56,30 @@ function Bancs() {
         <SwiperSlide className='photo-bancs'>
           <div className='container-bancs'>
             <img src={bancs1} alt='' />
-            <div className='title-bancs'>Cour européenne de justice, Luxembourg</div>
-            <div className='text-bancs'>Type granit : Rose clarté finition adouci</div>
+            <div className='title-bancs'>Banc</div>
+            <div className='text-bancs'>Type granit : Jaune Aurore adouci</div>
           </div>
         </SwiperSlide>
         <SwiperSlide className='photo-bancs'>
           <div className='container-bancs'>
             <img src={bancs2} alt='' />
-            <div className='title-bancs'>Cour européenne de justice, Luxembourg</div>
-            <div className='text-bancs'>Type granit : Rose clarté finition adouci</div>
+            <div className='title-bancs'>Banc Londres</div>
+            <div className='text-bancs'>Type granit : Lanhelin adouci</div>
           </div>
         </SwiperSlide>
         <SwiperSlide className='photo-bancs'>
           <div className='container-bancs'>
             <img src={bancs3} alt='' />
-            <div className='title-bancs'>Cour européenne de justice, Luxembourg</div>
-            <div className='text-bancs'>Type granit : Rose clarté finition adouci</div>
+            <div className='title-bancs'>Escalier/ bancs Mémorial Colleville Sur Mer</div>
+            <div className='text-bancs'>Type granit : Cachemir White flammé</div>
           </div>
         </SwiperSlide>
       </Swiper>
       <div className='text-fixe-verticaux'>
         <p>
         Sur une place ou dans un parc, les bancs offrent des points de repos et de partage.
-
 Matériau très résistant, le granit est particulièrement adapté.
-
 Il est la garantie d’un produit qui résistera dans le temps.
-
 Nous réalisons des bancs sur mesure dans une large sélection de granits et de finitions.
         </p>
       </div>

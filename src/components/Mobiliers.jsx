@@ -1,11 +1,11 @@
 import React from 'react'
 import './mobiliers.css'
-import Bancs from './Bancs.jsx'
+import Fontaines from './Fontaines.jsx'
 
 function Mobiliers() {
     return (
         <div className="Mobiliers">
-            <Bancs />
+            <Fontaines />
         </div>
     )
 }
