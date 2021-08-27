@@ -1,23 +1,42 @@
-.photo img {
-  width: 800px;
-  height: 600px;
-  margin-bottom: 30px;
+.PresentationBatiment{
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 530px;
+  margin-top: -19px;
 }
 
-.vignette img {
-  width: 70px;
-  height: 50px;
-  margin: 0px;
+.PresentationBatiment h1{
+  padding-top: 20px;
+  font-size: 28px;
+  color: rgb(121, 116, 116);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
 }
 
-.vignette {
-  margin-left: -80px;
+hr{
+  margin-left: 13px;
+  margin-top: -20px;
+  width: 660px;
 }
 
-.allCarousel {
-  margin-bottom: 50px;
+.photo-text-batiment{
+  display: flex;
+  justify-content: space-around;
 }
 
-.a{
-  margin-bottom: 20px;
+.photo-text-batiment img{
+  width: 65%;
+  height: 450px;
+  margin-top: 0px;
+}
+
+.photo-text-batiment p{
+  width: 30%;
+  font-size: 17px;
+  text-align: justify;
+  margin-right: 10px;
+  margin-top: -2px;
+  color: rgb(121, 116, 116);
 }
