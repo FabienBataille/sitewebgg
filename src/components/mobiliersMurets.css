@@ -1,0 +1,23 @@
+.MobiliersMurets{
+    background-image: url("../images/fond_monumentalistes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .menu h1{
+    color: black;
+  }
+  
+  .menu{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .presentationMobiliersMurets{
+    width: 900px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    padding-top: 15px;
+  }

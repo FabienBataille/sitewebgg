@@ -1,12 +1,12 @@
 import React from 'react'
-import './mobiliers.css'
+import './mobiliersMurets.css'
 import Murets from './Murets'
 import {Link} from 'react-router-dom'
 
 function MobiliersMurets() {
     return (
-        <div className="Mobiliers">
-            <p className="presentationMobiliers">
+        <div className="MobiliersMurets">
+            <p className="presentationMobiliersMurets">
             Vous trouverez ici quelques exemples d’aménagement urbain pour votre collectivité ou votre entreprise.
             Nous réalisons : des escaliers, des bancs, des murets ou encore des fontaines.
             Nous sommes à votre écoute pour vous aider à décorer votre commune ou les abords de votre société.
