@@ -1,0 +1,42 @@
+.PresentationVoirie{
+    background-image: url("../images/fond_monumentalistes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    margin-top: -19px;
+  }
+  
+  .PresentationVoirie h1{
+    padding-top: 20px;
+    font-size: 28px;
+    color: rgb(121, 116, 116);
+    font-weight: bold;
+    text-align: left;
+    padding-left: 50px;
+  }
+  
+  hr{
+    margin-left: 13px;
+    margin-top: -20px;
+    width: 660px;
+  }
+  
+  .photo-text-voirie{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .photo-text-voirie img{
+    width: 65%;
+    height: 450px;
+    margin-top: 0px;
+  }
+  
+  .photo-text-voirie p{
+    width: 30%;
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: -2px;
+    color: rgb(121, 116, 116);
+  }
