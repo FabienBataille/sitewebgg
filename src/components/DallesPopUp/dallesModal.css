@@ -1,0 +1,52 @@
+.container-dalles1 img{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    border: solid;
+    position: relative;
+    left: 262px;
+  }
+  
+  .container-dalles1 {
+    position: relative;
+  }
+  
+  .title-dalles1 {
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    left: 262px;
+    bottom: 35px;
+    width: 500px;
+  
+    background-color: rgba(200, 200, 200, 0.85);
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+  }
+  
+  .text-dalles1 {
+    font-size: small;
+    position: relative;
+    left: 262px;
+    bottom: 35px;
+    width: 500px;
+    border-radius: 0px 0px 10px 10px;
+  
+    background-color: rgba(200, 200, 200, 0.85);
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+  }
+
+  .close{
+    position: absolute;
+    left: 270px; top: 40px;
+    cursor: pointer;
+  }
+
+  .DallesModal{
+    width: 500px;
+    height: 350px;
+  }

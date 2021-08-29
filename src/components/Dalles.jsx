@@ -1,9 +1,11 @@
 import React from 'react'
+import DallesButton from './DallesPopUp/DallesButton'
+import './dalles.css'
 
 function Dalles() {
     return (
-        <div>
-           <h1>LES DALLES</h1> 
+        <div className="Dalles">
+          <DallesButton />
         </div>
     )
 }
