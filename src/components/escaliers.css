@@ -3,20 +3,28 @@
   background-image: url('../images/fond2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 620px;
 }
 
 .a{
   display: flex;
   justify-content: space-around;
   margin-right: 10px;
+  margin-left: 10px;
   margin-top: 0px;
   padding-top: 20px;
   margin-bottom: 0px;
 }
 
 .vignette{
-  margin-left: 1px;
+  width: 50px;
+}
+
+.vignette img{
+  width: 100px;
+  height: 75px;;
+  margin: 0px;
+
 }
 
 .allCarousel-escaliers{

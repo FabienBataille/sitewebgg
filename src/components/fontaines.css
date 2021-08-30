@@ -5,22 +5,19 @@
   
   .a-fontaines{
     display: flex;
-  justify-content: left;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 0px;
-  padding-top: 20px;
-  margin-bottom: 0px;
+    justify-content: left;
+    margin: auto;
+    padding-top: 20px;
   }
   
   .vignette-fontaines{
-    margin-left: 14px;
+    width: 50px;
   }
   
   .vignette-fontaines img{
-    width: 60px;
-    height: 45px;;
-    margin-left: 0px;
+    width: 100px;
+    height: 75px;;
+    margin: 0px
 
   }
   

@@ -25,8 +25,8 @@ function Murets() {
       <Swiper
         className='a-murets'
         onSwiper={setThumbsSwiper}
-        spaceBetween={30}
-        slidesPerView={6 }
+        spaceBetween={10}
+        slidesPerView={5}
         freeMode={true}
         watchSlidesVisibility={true}
         watchSlidesProgress={true}
@@ -34,9 +34,6 @@ function Murets() {
       >
         <SwiperSlide className='vignette-murets'>
           <img src={murets1} alt='' />
-        </SwiperSlide>
-        <SwiperSlide className='vignette-murets'>
-          <img src={murets2} alt='' />
         </SwiperSlide>
         <SwiperSlide className='vignette-murets'>
           <img src={murets2} alt='' />

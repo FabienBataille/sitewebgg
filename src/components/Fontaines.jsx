@@ -28,8 +28,8 @@ function Fontaines() {
       <Swiper
         className='a-fontaines'
         onSwiper={setThumbsSwiper}
-        spaceBetween={30}
-        slidesPerView={9}
+        spaceBetween={10}
+        slidesPerView={8}
         freeMode={true}
         watchSlidesVisibility={true}
         watchSlidesProgress={true}

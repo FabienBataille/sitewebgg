@@ -5,17 +5,13 @@
   
   .a-murets{
     display: flex;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: 0px;
+    justify-content: left;
+    margin: auto;
     padding-top: 20px;
-    margin-bottom: 0px;
-    width: 600px;
   }
   
   .vignette-murets{
     width: 50px;
-    margin-left: 79px;
   }
   
   .vignette-murets img{
