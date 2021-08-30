@@ -37,6 +37,8 @@ function Dalles() {
 
   return (
     <div className="Dalles">
+       <h1>DALLES</h1>
+      <hr />
       <Swiper
         className="a-dalles"
         onSwiper={setThumbsSwiper}

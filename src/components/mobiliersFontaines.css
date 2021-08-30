@@ -2,11 +2,44 @@
   background-image: url("../images/fond_monumentalistes.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -18px;
 }
 
-.menu h1{
-  color: black;
+.MobiliersFontaines .presentationMobiliersFontaines{
+  margin-top: -3px;
+  padding-top: 0px;
+  text-align: justify;
+  margin-left: 50px;
+  width: 925px;
 }
+
+.MobiliersFontaines .separation-title {
+  margin: - 20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
+}
+
+.MobiliersFontaines .separation-menu {
+  margin: - 20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
+}
+
+
+.menu .rubrique {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+#rubrique-fontaines {
+  font-size: 27px;
+  box-shadow: 2px 2px 2px 2px rgb(187, 182, 182);
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
 
 .menu{
   display: flex;
@@ -20,4 +53,5 @@
   margin: auto;
   font-size: 16px;
   padding-top: 15px;
+  margin-top: 20px;
 }

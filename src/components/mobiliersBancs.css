@@ -1,23 +1,57 @@
-.MobiliersBancs{
-    background-image: url("../images/fond_monumentalistes.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.MobiliersBancs {
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -18px;
+}
 
-  .menu h1{
-    color: black;
-  }
-  
-  .menu{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .presentationMobiliersBancs{
-    width: 900px;
-    color: black;
-    text-align: center;
-    margin: auto;
-    font-size: 16px;
-    padding-top: 15px;
-  }
+.MobiliersBancs .presentationMobiliersBancs{
+  margin-top: -3px;
+  padding-top: 0px;
+  text-align: justify;
+  margin-left: 50px;
+  width: 925px;
+}
+
+.MobiliersBancs .separation-title {
+  margin: - 20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
+}
+
+.MobiliersBancs .separation-menu {
+  margin: - 18px auto;
+  width: 980px;
+  color: rgb(2, 2, 2);
+}
+
+
+.menu .rubrique {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+#rubrique-bancs {
+  font-size: 27px;
+  box-shadow: 2px 2px 2px 2px rgb(187, 182, 182);
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.presentationMobiliersBancs {
+  width: 900px;
+  color: black;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  padding-top: 15px;
+}

@@ -1,23 +1,71 @@
-.MobiliersMurets{
-    background-image: url("../images/fond_monumentalistes.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.MobiliersMurets {
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -18px;
+}
 
-  .menu h1{
-    color: black;
-  }
-  
-  .menu{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .presentationMobiliersMurets{
-    width: 900px;
-    color: black;
-    text-align: center;
-    margin: auto;
-    font-size: 16px;
-    padding-top: 15px;
-  }
+.MobiliersMurets .separation-title{
+  margin-top: -20px;
+}
+
+.MobiliersMurets .separation-menu{
+  margin-top: -18px;
+}
+
+.MobiliersMurets .presentationMobiliersMurets {
+  margin-top: 25px;
+  padding-top: 0px;
+  text-align: justify;
+  margin-left: 50px;
+  width: 925px;
+}
+
+.Murets {
+  margin-top: 20px;
+}
+.menu .rubrique {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+#rubrique-murets {
+  font-size: 27px;
+  box-shadow: 2px 2px 2px 2px rgb(187, 182, 182);
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.presentationMobiliersMurets {
+  width: 900px;
+  color: black;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.mobiliers-urbains {
+  padding-top: 20px;
+  font-size: 28px;
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.MobiliersMurets hr {
+  margin: -20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
+}

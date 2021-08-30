@@ -43,7 +43,7 @@ function BatimentBurger() {
             <li className='second'>
               <Link
                 style={{ textDecoration: 'none', color: 'white' }}
-                to='/mobiliers-bancs'
+                to='/mobiliers-murets'
               >
                 <h6>Mobiliers urbains</h6>
               </Link>

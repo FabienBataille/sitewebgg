@@ -64,7 +64,7 @@ function Fontaines() {
         effect='fade'
         spaceBetween={10}
         slidesPerview={8}
-        /*autoplay={true}*/
+        autoplay={true}
         /*navigation*/
         /*pagination={{ clickable: true }}*/
         thumbs={{ swiper: thumbsSwiper }}

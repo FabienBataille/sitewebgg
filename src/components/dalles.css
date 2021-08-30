@@ -1,84 +1,103 @@
 .Dalles {
-    text-align: center;
-    height: 680px;
-  }
-  
-  .a-dalles{
-    display: flex;
-    justify-content: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 20px;
-  }
-  
-  .vignette-dalles{
-    width: 50px;
-  }
-  
-  .vignette-dalles img{
-    width: 100px;
-    height: 75px;;
-    margin: 0px;
+  text-align: center;
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+  margin-top: -20px;
+}
 
-  }
+.a-dalles {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.vignette-dalles {
+  width: 50px;
+}
+
+.vignette-dalles img {
+  width: 100px;
+  height: 75px;
+  margin: 0px;
+}
+
+.allCarousel-dalles {
+  margin-top: 0px;
+  height: 500px;
+}
+
+.photo-dalles img {
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+}
+
+.container-dalles {
+  position: relative;
+}
+
+.title-dalles {
+  font-size: small;
+  font-weight: bold;
+  position: relative;
+  left: 262px;
+  bottom: 35px;
+  width: 500px;
+  color: rgb(75, 75, 75);
+  background-color: rgba(200, 200, 200, 0.85);
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.text-dalles {
+  font-size: small;
+  position: relative;
+  left: 262px;
+  bottom: 35px;
+  width: 500px;
+  border-radius: 0px 0px 10px 10px;
+  color: rgb(75, 65, 65);
+  background-color: rgba(200, 200, 200, 0.85);
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.text-fixe-dalles p {
+  color: rgb(60, 60, 60);
+  width: 810px;
+  margin-top: 0px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.text-fixe-dalles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -100px auto;
+  width: 900px;
+}
+
+.Dalles h1 {
+  padding-top: 20px;
+  font-size: 28px;
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.Dalles hr {
   
-  .allCarousel-dalles{
-    margin-top: 0px;
-    height: 500px;
-  }
-  
-  .photo-dalles img{
-    margin-top: 30px;
-    border-radius: 10px;
-    width: 500px;
-    height: 350px;
-  }
-  
-  .container-dalles {
-    position: relative;
-  }
-  
-  .title-dalles {
-    font-size: small;
-    font-weight: bold;
-    position: relative;
-    left: 262px;
-    bottom: 35px;
-    width: 500px;
-  
-    background-color: rgba(200, 200, 200, 0.85);
-    opacity: 1;
-    -webkit-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-  }
-  
-  .text-dalles {
-    font-size: small;
-    position: relative;
-    left: 262px;
-    bottom: 35px;
-    width: 500px;
-    border-radius: 0px 0px 10px 10px;
-  
-    background-color: rgba(200, 200, 200, 0.85);
-    opacity: 1;
-    -webkit-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-  }
-  
-  .text-fixe-dalles p{
-    color: black;
-    width: 800px;
-    margin-top: 0px;
-    text-align: center;
-    font-size: 16px;
-  }
-  
-  .text-fixe-dalles{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: -100px auto;
-    width: 900px;
-    border: solid;
-  }
+  margin: -20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
+}
