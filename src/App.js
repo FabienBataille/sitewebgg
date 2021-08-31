@@ -24,7 +24,6 @@ import Voirie from "./components/Voirie";
 import Batiment from "./components/Batiment";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Histoire from "./components/Histoire";
 
 function App() {
   return (
