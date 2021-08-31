@@ -37,7 +37,7 @@ function Dalles() {
 
   return (
     <div className="Dalles">
-       <h1>DALLES</h1>
+       <h1 className="titre-dalles">DALLES</h1>
       <hr />
       <Swiper
         className="a-dalles"

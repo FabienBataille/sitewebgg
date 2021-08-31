@@ -1,34 +1,30 @@
-import './App.css';
-import Header from './components/Header'
-import Home from './components/Home'
-import Footer from './components/Footer'
-import History from './components/History'
-import Extraction from './components/Extraction'
-import Fabrication from './components/Fabrication'
-import Dalles from './components/Dalles'
-import Bornes from './components/Bornes'
-import Bordures from './components/Bordures'
-import Paves from './components/Paves'
-import Escaliers from './components/Escaliers'
-import RevetementSol from './components/RevetementSol'
-import RevetementV from './components/RevetementV'
-import PresentationBatiment from './components/PresentationBatiment'
-import MobiliersBancs from './components/MobiliersBancs'
-import MobiliersMurets from './components/MobiliersMurets'
-import MobiliersFontaines from './components/MobiliersFontaines'
-import PresentationVoirie from './components/PresentationVoirie'
-import Artistique from './components/Artistique'
-import Decorations from './components/Decorations'
-import Origines from './components/Origines'
-import Voirie from './components/Voirie'
-import Batiment from './components/Batiment'
-import Contact from './components/Contact'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-
+import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import Histoire from "./components/Histoire";
+import Extraction from "./components/Extraction";
+import Fabrication from "./components/Fabrication";
+import Dalles from "./components/Dalles";
+import Bornes from "./components/Bornes";
+import Bordures from "./components/Bordures";
+import Paves from "./components/Paves";
+import Escaliers from "./components/Escaliers";
+import RevetementSol from "./components/RevetementSol";
+import RevetementV from "./components/RevetementV";
+import PresentationBatiment from "./components/PresentationBatiment";
+import MobiliersBancs from "./components/MobiliersBancs";
+import MobiliersMurets from "./components/MobiliersMurets";
+import MobiliersFontaines from "./components/MobiliersFontaines";
+import PresentationVoirie from "./components/PresentationVoirie";
+import Artistique from "./components/Artistique";
+import Decorations from "./components/Decorations";
+import Origines from "./components/Origines";
+import Voirie from "./components/Voirie";
+import Batiment from "./components/Batiment";
+import Contact from "./components/Contact";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Histoire from "./components/Histoire";
 
 function App() {
   return (
@@ -38,7 +34,7 @@ function App() {
           <Header />
           <Switch>
             <Route exact path="/histoire">
-              <History />
+              <Histoire />
             </Route>
             <Route exact path="/extraction">
               <Extraction />

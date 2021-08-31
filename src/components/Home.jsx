@@ -1,28 +1,34 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper';
-import 'swiper/swiper-bundle.css';
-import './presentationBatiment.css';
-import photo1 from '../photos/photo1.jpeg';
-import photo2 from '../photos/photo2.jpeg';
-import photo3 from '../photos/photo3.jpeg';
-import actu1 from '../actu/actu1.png';
-import actu2 from '../actu/actu2.jpeg';
-import actu3 from '../actu/actu3.jpeg';
-import './home.css';
-import separation_horizontale from '../images/separation_horizontale.png';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper";
+import "swiper/swiper-bundle.css";
+import "./presentationBatiment.css";
+import photo1 from "../photos/photo1.jpeg";
+import photo2 from "../photos/photo2.jpeg";
+import photo3 from "../photos/photo3.jpeg";
+import actu1 from "../actu/actu1.png";
+import actu2 from "../actu/actu2.jpeg";
+import actu3 from "../actu/actu3.jpeg";
+import "./home.css";
+import separation_horizontale from "../images/separation_horizontale.png";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 function Home() {
   return (
-    <div className='Home'>
-      <div className='corps'>
-        <aside>
-          <div className='actualites'>
-            <div className='article1'>
+    <div className="Home">
+      <div className="corps">
+        <aside className="left">
+          <h2 className="titre-actualites">ACTUALITÉS</h2>
+          <img
+            src={separation_horizontale}
+            className="separation-actualites"
+            alt="separation_horizontale"
+          />
+          <div className="actualites">
+            <div className="article1">
               <h6>La presse en parle</h6>
-              <img src={actu1} className='actu3' alt='' />
+              <img src={actu1} className="actu3" alt="" />
               <p>
                 Après avoir réalisé les aménagements du stade de football de
                 Kransnodar en RUSSIE, le hasard à...
@@ -30,12 +36,12 @@ function Home() {
             </div>
             <img
               src={separation_horizontale}
-              className='separation_horizontale'
-              alt='separation_horizontale'
+              className="separation_horizontale"
+              alt="separation_horizontale"
             />
-            <div className='article2'>
+            <div className="article2">
               <h6>Nouveau site internet</h6>
-              <img src={actu2} className='actu2' alt='' />
+              <img src={actu2} className="actu2" alt="" />
               <p>
                 Nous sommes très heureux de vous accueillir sur le nouveau site
                 de notre activité voirie ...
@@ -43,12 +49,12 @@ function Home() {
             </div>
             <img
               src={separation_horizontale}
-              className='separation_horizontale'
-              alt='separation_horizontale'
+              className="separation_horizontale"
+              alt="separation_horizontale"
             />
-            <div className='article1'>
+            <div className="article1">
               <h6>Nouveau polissoir à plat</h6>
-              <img src={actu3} className='actu3' alt='' />
+              <img src={actu3} className="actu3" alt="" />
               <p>
                 Un nouveau polissoir à plat a été installé au premier semestre
                 2017. Cet outil nous...
@@ -57,38 +63,38 @@ function Home() {
           </div>
         </aside>
         <Swiper
-          className='allCarousel-home'
-          effect='fade'
+          className="allCarousel-home"
+          effect="fade"
           spaceBetween={50}
           slidesPerview={3}
           autoplay={true}
           /*navigation*/
           pagination={{ clickable: true }}
           /*scrollbar={{ draggable: true }}*/
-          onSwiper={() => console.log('Swiper')}
-          onSlideChange={() => console.log('slide change')}
+          onSwiper={() => console.log("Swiper")}
+          onSlideChange={() => console.log("slide change")}
         >
-          <SwiperSlide className='photo-home'>
-            <div className='container-home'>
-              <img src={photo1} alt='' />
-              <div className='text-home'>
+          <SwiperSlide className="photo-home">
+            <div className="container-home">
+              <img src={photo1} alt="" />
+              <div className="text-home">
                 Monument commémoratif en mémoire des victimes de la SHOA pour la
                 ville de Luxembourg.
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className='photo-home'>
-            <div className='container-home'>
-              <img src={photo2} alt='' />
-              <div className='text-home'>
+          <SwiperSlide className="photo-home">
+            <div className="container-home">
+              <img src={photo2} alt="" />
+              <div className="text-home">
                 Abords du Stade de foot du FC Krasnodar en RUSSIE
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className='photo-home'>
-            <div className='container-home'>
-              <img src={photo3} alt='' />
-              <div className='text-home'>Dallage Hôtel de ville Vincennes</div>
+          <SwiperSlide className="photo-home">
+            <div className="container-home">
+              <img src={photo3} alt="" />
+              <div className="text-home">Dallage Hôtel de ville Vincennes</div>
             </div>
           </SwiperSlide>
         </Swiper>

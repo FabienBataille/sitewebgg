@@ -25,6 +25,8 @@ function Escaliers() {
 
   return (
     <div className='Escaliers'>
+      <h1 className="titre-escaliers">ESCALIERS</h1>
+      <hr className="separation-menu"/>
       <Swiper
         className='a'
         onSwiper={setThumbsSwiper}

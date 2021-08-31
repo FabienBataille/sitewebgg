@@ -1,16 +1,16 @@
 .actu3 {
-  width: 200px;
-  height: 112px;
+  width: 250px;
+  height: 56%;
 }
 
 .actu2 {
-  width: 200px;
-  height: 267px;
+  width: 250px;
+  height: 56%;
 }
 
 .actu1 {
-  width: 200px;
-  height: 267px;
+  width: 250px;
+  height: 56%;
 }
 
 .photo-home img {
@@ -24,33 +24,46 @@
 .allCarousel-home {
   width: 75%;
   height: 550px;
+  margin-top: 8px;
 }
 
-.actualites {
-  border: solid #9d9e9e 1px;
-  border-radius: 10px;
-  width: 225px;
-  height: 550px;
-  margin-left: 40px;
-  margin-top: 20px;
-  background-color: #6b6c6e;
-  overflow: scroll;
+.Home .actualites {
+  width: 270px;
+  height: 495px;
+  margin-left: 1px;
+  margin-top: 0px;
+  padding-top: 10px;
+  overflow-y: scroll;
 }
 
 .actualites p {
   color: #ffffff;
-  width: 200px;
+  width: 250px;
   text-align: justify;
+  font-size: 12px;
 }
 
 .actualites h6 {
-  color: #ebd6d6;
+  color: #ffffff;
+  font-size: medium;
 }
 
-aside {
-  width: 25%;
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
   text-align: center;
-  height: 550px;
+  height: 570px;
+  margin-top: 5px;
+  margin-left: 1px;
+  border-radius: 0px 10px 10px 0px;;
+  background-color: #6b6c6e;
+}
+
+.titre-actualites {
+  width: 225px;
+  margin-left: 26px;
+  color: #ffffff;
 }
 
 .corps {
@@ -81,6 +94,13 @@ aside {
   margin-bottom: 10px;
 }
 
+.separation-actualites {
+  height: 1px;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: -15px;
+}
+
 /*.photo p{
   font-size: 12px;
   color: black;
@@ -93,7 +113,7 @@ aside {
 .text-home {
   font-size: small;
   position: absolute;
-  left: 84px;
+  left: 75px;
   bottom: 3px;
   width: 600px;
   border-radius: 0px 0px 10px 10px;
@@ -104,6 +124,9 @@ aside {
   transition: opacity 0.5s ease;
 }
 
-.Home{
-  height: 600px;
+.Home {
+  height: 580px;
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
