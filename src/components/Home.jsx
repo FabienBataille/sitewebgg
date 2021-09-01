@@ -63,7 +63,6 @@ function Home() {
             </div>
           </div>
         </aside>
-
         <h1 className="titre-accueil">ACCUEIL</h1>
         <hr className="separation-titre-accueil" />
         <Swiper
@@ -134,4 +133,3 @@ function Home() {
 }
 
 export default Home;
-
