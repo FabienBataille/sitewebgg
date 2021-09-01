@@ -1,28 +1,27 @@
-import React from 'react';
-import gg from '../images/gg.png';
-import logo from '../images/logo_gg.png';
-import homeIcon from '../images/Home_icon.png';
-import mailIcon from '../images/NousContacter.png';
-import './header.css';
-import QuiBurger from './QuiBurger';
-import VoirieBurger from './VoirieBurger';
-import BatimentBurger from './BatimentBurger';
-import OuvragesBurger from './OuvragesBurger';
-import MateriauxBurger from './MateriauxBurger';
-import { Link } from 'react-router-dom';
+import React from "react";
+import gg from "../logos/logo_essai.png";
+
+import homeIcon from "../images/Home_icon.png";
+import mailIcon from "../images/NousContacter.png";
+import "./header.css";
+import QuiBurger from "./QuiBurger";
+import VoirieBurger from "./VoirieBurger";
+import BatimentBurger from "./BatimentBurger";
+import OuvragesBurger from "./OuvragesBurger";
+import MateriauxBurger from "./MateriauxBurger";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className='Header'>
-      <div className='logo_generale'>
-        <img src={logo} className='logo' alt='logo' />
-        <img src={gg} className='gg' alt='logo-header' />
+    <div className="Header">
+      <div className="logo_generale">
+        <img src={gg} className="gg" alt="logo-header" />
       </div>
-      <div className='nav_bar'>
+      <div className="nav_bar">
         <ul>
-          <li className='tagIcon'>
-            <Link to='/accueil'>
-              <img src={homeIcon} className='homeIcon' alt='homeIcon' />
+          <li className="tagIcon">
+            <Link to="/accueil">
+              <img src={homeIcon} className="homeIcon" alt="homeIcon" />
             </Link>
           </li>
           <li>
@@ -40,9 +39,9 @@ function Header() {
           <li>
             <MateriauxBurger />
           </li>
-          <li className='mailIcon'>
+          <li className="mailIcon">
             <Link to="/contact">
-            <img src={mailIcon} className='mailIcon' alt='mailIcon' />
+              <img src={mailIcon} className="mailIcon" alt="mailIcon" />
             </Link>
           </li>
         </ul>

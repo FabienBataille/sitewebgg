@@ -14,22 +14,23 @@
 }
 
 .photo-home img {
-  width: 600px;
+  width: 650px;
   height: 450px;
   margin-top: 50px;
   margin-bottom: 0px;
+  margin-left: 0px;
   border-radius: 10px;
 }
 
 .allCarousel-home {
-  width: 75%;
+  width: 650px;
   height: 550px;
-  margin-top: 8px;
+  margin: 30px auto;
 }
 
 .Home .actualites {
   width: 270px;
-  height: 495px;
+  height: 800px;
   margin-left: 1px;
   margin-top: 0px;
   padding-top: 10px;
@@ -53,7 +54,7 @@
   flex-direction: column;
   width: 280px;
   text-align: center;
-  height: 570px;
+  height: 870px;
   margin-top: 5px;
   margin-left: 1px;
   border-radius: 0px 10px 10px 0px;;
@@ -107,17 +108,18 @@
 }*/
 
 .container-home {
-  position: relative;
+  position: absolute;
+  margin-left: 15px;
+  width: 680px;
 }
 
 .text-home {
   font-size: small;
-  position: absolute;
-  left: 75px;
-  bottom: 3px;
-  width: 600px;
+  position: relative;
+  left: 15px;
+  bottom: 19px;
+  width: 650px;
   border-radius: 0px 0px 10px 10px;
-
   background-color: rgba(200, 200, 200, 0.85);
   opacity: 1;
   -webkit-transition: opacity 0.5s ease;
@@ -125,8 +127,48 @@
 }
 
 .Home {
-  height: 580px;
+  height: 880px;
   background-image: url("../images/fond_monumentalistes.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.presentation-accueil {
+  position: absolute;
+  top: 700px;
+  right: 74px;
+  width: 600px;
+}
+
+.titre-paragraphe-accueil {
+  margin-top: -50px;
+  margin-left: 5px;
+  font-size: 22px;
+  color: rgb(53, 164, 174);
+  text-align: left;
+}
+
+.paragraphe-accueil {
+  width: 650px;
+  margin-left: -25px;
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+  text-align: justify;
+}
+
+.titre-accueil {
+  position: absolute;
+  left: 350px;
+  height: 30px;
+  font-size: 28px;
+  color: rgb(53, 164, 174);
+}
+
+.separation-titre-accueil {
+  position: absolute;
+  left: 311px;
+  top: 165px;
+  width: 650px;
+  color: rgb(80, 80, 80);
+}
+

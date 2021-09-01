@@ -128,7 +128,7 @@ function Dalles() {
               EXTÉRIEUR MÉMORIAL COLLEVILLE SUR MER
             </div>
             <div className="text-dalles">
-              TType granit : Cachemir White flammé
+              Type granit : Cachemir White flammé
             </div>
           </div>
         </SwiperSlide>

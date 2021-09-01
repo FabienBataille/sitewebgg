@@ -1,0 +1,111 @@
+.PresentationEntreprise {
+  margin-top: -19px;
+  height: 1400px;
+  background-image: url("../images/fond_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.PresentationEntreprise .sculpteur {
+  padding-top: 20px;
+  font-size: 28px;
+  color: rgb(60, 60, 60);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.PresentationEntreprise .separation-titre-sculpteur {
+  margin: -20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
+}
+
+.presentation_entreprise1 {
+  margin: 30px auto;
+  width: 980px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div1 .partie1 {
+  width: 980px;
+  margin: -15px auto;
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+  text-align: justify;
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.div1 .partie2 {
+  width: 980px;
+  margin: 20px auto;
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+  text-align: justify;
+}
+
+.PresentationEntreprise .français {
+  margin-top: 10px;
+  font-size: 22px;
+  color: rgb(60, 60, 60);
+  text-align: left;
+
+  padding-left: 50px;
+}
+
+.en_choisissant {
+  width: 980px;
+  margin: 10px auto;
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+  text-align: justify;
+  font-weight: bold;
+}
+
+.liste2 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+  align-items: flex-start;
+  margin-top: -15px;
+  margin-left: 100px;
+}
+
+.div2 .tous_leurs {
+  width: 980px;
+  margin: 20px auto;
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+  text-align: justify;
+}
+
+.notre_societe {
+  width: 980px;
+  margin: 30px auto;
+  font-size: 18px;
+  color: rgb(60, 60, 60);
+  text-align: justify;
+  font-weight: bold;
+}
+
+.quelques_points {
+    display: flex;
+    flex-direction: column;
+    list-style-type: circle;
+    align-items: flex-start;
+    margin-top: -15px;
+    margin-left: 100px;
+  }

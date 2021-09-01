@@ -14,6 +14,11 @@ function QuiBurger() {
               </Link>
             </li>
             <li className="second">
+              <Link style={{ textDecoration: 'none'}} to='/presentation-entreprise'>
+                <h6>Présentation</h6>
+              </Link>
+            </li>
+            <li className="second">
               <Link style={{ textDecoration: 'none'}} to='/extraction'>
                 <h6>L'exctraction</h6>
               </Link>

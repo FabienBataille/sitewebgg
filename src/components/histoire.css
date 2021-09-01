@@ -1,7 +1,7 @@
 .Histoire .titre-histoire {
   padding-top: 20px;
   font-size: 28px;
-  color: rgb(60, 60, 60);
+  color: rgb(53, 164, 174);
   font-weight: bold;
   text-align: left;
   padding-left: 50px;
@@ -10,7 +10,7 @@
 .Histoire{
   margin-top: -18px;
   height: 1520px;
-  background-image: url("../images/fond_monumentalistes.jpg");
+  background-image: url("../fonds/fond2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

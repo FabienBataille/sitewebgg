@@ -23,6 +23,7 @@ import Origines from "./components/Origines";
 import Voirie from "./components/Voirie";
 import Batiment from "./components/Batiment";
 import Contact from "./components/Contact";
+import PresentationEntreprise from "./components/PresentationEntreprise"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
           <Switch>
             <Route exact path="/histoire">
               <Histoire />
+            </Route>
+            <Route exact path="/presentation-entreprise">
+              <PresentationEntreprise />
             </Route>
             <Route exact path="/extraction">
               <Extraction />
