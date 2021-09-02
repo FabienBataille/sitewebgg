@@ -1,89 +1,105 @@
 .RevetementV {
-    text-align: center;
-    background-image: url('../images/fond_monumentalistes.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-  }
-  
-  .a-verticaux{
-    display: flex;
-    justify-content: space-around;
-    margin-right: 10px;
-    margin-top: 0px;
-    padding-top: 20px;
-    margin-bottom: 0px;
-  }
-  
-  .vignette-verticaux{
-    margin-left: 1px;
-    width: 100px;
+  text-align: center;
+  background-image: url("../fonds/fond1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+  margin-top: -18px;
+}
 
-  }
+.RevetementV .titre-revetementV {
+  padding-top: 20px;
+  font-size: 28px;
+  color: rgb(53, 164, 174);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
+}
 
-  .vignette-verticaux img{
-    width: 100px;
-    height: 75px;;
-    margin: 0px;
-  }
-  
-  .allCarousel-verticaux{
-    margin-top: 0px;
-    height: 500px;
-  }
-  
-  .photo-verticaux img{
-    margin-top: 30px;
-    border-radius: 10px;
-    margin-bottom: 0px;
-    width: 500px;
-    height: 350px;
-  }
-  
-  .container-verticaux {
-    position: relative;
-  }
-  
-  .title-verticaux {
-    font-size: small;
-    font-weight: bold;
-    position: relative;
-    left: 262px;
-    bottom: 35px;
-    width: 500px;
-  
-    background-color: rgba(200, 200, 200, 0.85);
-    opacity: 1;
-    -webkit-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-  }
-  
-  .text-verticaux {
-    font-size: small;
-    position: relative;
-    left: 262px;
-    bottom: 35px;
-    width: 500px;
-    border-radius: 0px 0px 10px 10px;
-  
-    background-color: rgba(200, 200, 200, 0.85);
-    opacity: 1;
-    -webkit-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-  }
-  
-  .text-fixe-verticaux p{
-    color: black;
-    width: 750px;
-    margin-top: 0px;
-    text-align: center;
-    font-size: 16px;
-  }
-  
-  .text-fixe-verticaux{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -100px;
-    margin-bottom: 0px;
-  }
+.RevetementV .separation-menu-revetementV {
+  margin: -20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
+}
+
+.a-verticaux {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.vignette-verticaux {
+  margin-left: 1px;
+  width: 100px;
+}
+
+.vignette-verticaux img {
+  width: 100px;
+  height: 75px;
+  margin: 0px;
+}
+
+.allCarousel-verticaux {
+  margin-top: 0px;
+  height: 500px;
+}
+
+.photo-verticaux img {
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  width: 500px;
+  height: 350px;
+}
+
+.container-verticaux {
+  position: relative;
+}
+
+.title-verticaux {
+  font-size: small;
+  font-weight: bold;
+  position: relative;
+  left: 262px;
+  bottom: 35px;
+  width: 500px;
+
+  background-color: rgba(200, 200, 200, 0.85);
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.text-verticaux {
+  font-size: small;
+  position: relative;
+  left: 262px;
+  bottom: 35px;
+  width: 500px;
+  border-radius: 0px 0px 10px 10px;
+
+  background-color: rgba(200, 200, 200, 0.85);
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.text-fixe-verticaux p {
+  color: black;
+  width: 750px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.text-fixe-verticaux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100px;
+  margin-bottom: 0px;
+}

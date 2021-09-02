@@ -1,84 +1,88 @@
 .Bancs {
-    text-align: center;
-    height: 580px;
-  }
-  
-  .a-bancs{
-    display: flex;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: 0px;
-    padding-top: 20px;
-    margin-bottom: 0px;
-    width: 600px;
-  }
-  
-  .vignette-bancs{
-    width: 50px;
-    margin-left: 76px;
-  }
-  
-  .vignette-bancs img{
-    width: 100px;
-    height: 75px;;
-    margin: 0px;
-  }
-  
-  .allCarousel-bancs{
-    margin-top: 0px;
-    height: 500px;
-  }
-  
-  .photo-bancs img{
-    margin-top: 30px;
-    border-radius: 10px;
-    width: 500px;
-    height: 350px;
-  }
-  
-  .container-bancs {
-    position: relative;
-  }
-  
-  .title-bancs {
-    font-size: small;
-    font-weight: bold;
-    position: relative;
-    left: 262px;
-    bottom: 35px;
-    width: 500px;
-  
-    background-color: rgba(200, 200, 200, 0.85);
-    opacity: 1;
-    -webkit-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-  }
-  
-  .text-bancs {
-    font-size: small;
-    position: relative;
-    left: 262px;
-    bottom: 35px;
-    width: 500px;
-    border-radius: 0px 0px 10px 10px;
-  
-    background-color: rgba(200, 200, 200, 0.85);
-    opacity: 1;
-    -webkit-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-  }
-  
-  .text-fixe-bancs p{
-    color: black;
-    width: 750px;
-    margin-top: -10px;
-    text-align: center;
-    font-size: 16px;
-  }
-  
-  .text-fixe-bancs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -90px;
-  }
+  text-align: center;
+  height: 580px;
+  background-image: url("../fonds/fond1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.a-bancs {
+  display: flex;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  width: 600px;
+}
+
+.vignette-bancs {
+  width: 50px;
+  margin-left: 76px;
+}
+
+.vignette-bancs img {
+  width: 100px;
+  height: 75px;
+  margin: 0px;
+}
+
+.allCarousel-bancs {
+  margin-top: 0px;
+  height: 500px;
+}
+
+.photo-bancs img {
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+}
+
+.container-bancs {
+  position: relative;
+}
+
+.title-bancs {
+  font-size: small;
+  font-weight: bold;
+  position: relative;
+  left: 262px;
+  bottom: 35px;
+  width: 500px;
+
+  background-color: rgba(200, 200, 200, 0.85);
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.text-bancs {
+  font-size: small;
+  position: relative;
+  left: 262px;
+  bottom: 35px;
+  width: 500px;
+  border-radius: 0px 0px 10px 10px;
+
+  background-color: rgba(200, 200, 200, 0.85);
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.text-fixe-bancs p {
+  color: black;
+  width: 750px;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.text-fixe-bancs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -90px;
+}

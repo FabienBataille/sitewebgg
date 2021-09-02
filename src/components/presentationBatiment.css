@@ -1,7 +1,8 @@
 .PresentationBatiment {
-  background-image: url("../images/fond_monumentalistes.jpg");
+  background-image: url("../fonds/fond1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 530px;
   margin-top: -19px;
 }
@@ -9,7 +10,7 @@
 .PresentationBatiment h1 {
   padding-top: 20px;
   font-size: 28px;
-  color: rgb(80, 80, 80);
+  color: rgb(53, 164, 174);
   font-weight: bold;
   text-align: left;
   padding-left: 50px;

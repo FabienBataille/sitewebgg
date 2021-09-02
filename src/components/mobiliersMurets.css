@@ -1,7 +1,8 @@
 .MobiliersMurets {
-  background-image: url("../images/fond_monumentalistes.jpg");
+  background-image: url("../fonds/fond1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   margin-top: -18px;
 }
 

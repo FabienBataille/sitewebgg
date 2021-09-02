@@ -21,10 +21,14 @@
   border-radius: 10px;
 }
 
+.photo-home{
+  width: 750px;
+}
+
 .allCarousel-home {
   width: 75%;
   height: 550px;
-  margin-top: 30px;
+  margin-top:-30px;
   margin-left: 20px;
 }
 
@@ -132,18 +136,18 @@
   background-image: url("../fonds/fond1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .presentation-accueil {
-  position: absolute;
-  top: 700px;
   right: 74px;
   width: 600px;
 }
 
 .titre-paragraphe-accueil {
-  margin-top: -50px;
-  margin-left: -182px;
+ 
+  width: 350px;
+  margin-left: 70px;
   font-size: 22px;
   color: rgb(53, 164, 174);
   text-align: left;
@@ -151,25 +155,32 @@
 
 .paragraphe-accueil {
   width: 650px;
-  margin-left: -208px;
+  margin-left: 50px;
   font-size: 18px;
   color: rgb(60, 60, 60);
   text-align: justify;
 }
 
 .titre-accueil {
-  position: absolute;
-  left: 540px;
-  height: 30px;
+  width: 130px;
+  margin-left: 70px;
   font-size: 28px;
   color: rgb(53, 164, 174);
 }
 
 .separation-titre-accueil {
-  position: absolute;
-  left: 492px;
-  top: 178px;
+  margin-left: 53px;
+  margin-top: -11px;
   width: 650px;
   color: rgb(80, 80, 80);
 }
 
+.Home .right{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home .global{
+  width: 70%;
+}

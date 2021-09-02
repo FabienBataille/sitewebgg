@@ -23,6 +23,8 @@ function RevetementV() {
 
   return (
     <div className='RevetementV'>
+      <h1 className="titre-revetementV">REVÊTEMENTS VERTICAUX</h1>
+      <hr className="separation-menu-revetementV"/>
       <Swiper
         className='a-verticaux'
         onSwiper={setThumbsSwiper}

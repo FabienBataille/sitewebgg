@@ -19,6 +19,8 @@ function RevetementSol() {
 
   return (
     <div className='RevetementSol'>
+      <h1 className="titre-revetementSol">REVÊTEMENTS SOLS</h1>
+      <hr className="separation-menu-revetementSol"/>
       <Swiper
         className='a-sol'
         onSwiper={setThumbsSwiper}

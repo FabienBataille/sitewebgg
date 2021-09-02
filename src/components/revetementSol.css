@@ -1,16 +1,34 @@
 .RevetementSol {
   text-align: center;
-  background-image: url('../images/fond_monumentalistes.jpg');
+  background-image: url("../fonds/fond1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 615px;
+  background-attachment: fixed;
+  height: 675px;
+  margin-top: -18px;
+}
+
+.RevetementSol .titre-revetementSol {
+  padding-top: 20px;
+  font-size: 28px;
+  color: rgb(53, 164, 174);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.RevetementSol .separation-menu-revetementSol {
+
+  margin: -20px auto;
+  width: 980px;
+  color: rgb(80, 80, 80);
 }
 
 .a-sol{
   display: flex;
   text-align: center;
   margin-left: 200px;
-  margin-top: 0px;
+  margin-top: 20px;
   padding-top: 20px;
   margin-bottom: 0px;
   width: 600px;

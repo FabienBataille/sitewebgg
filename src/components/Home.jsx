@@ -63,69 +63,74 @@ function Home() {
             </div>
           </div>
         </aside>
-        <h1 className="titre-accueil">ACCUEIL</h1>
-        <hr className="separation-titre-accueil" />
-        <Swiper
-          className="allCarousel-home"
-          effect="fade"
-          spaceBetween={50}
-          slidesPerview={3}
-          autoplay={true}
-          /*navigation*/
-          /*pagination={{ clickable: true }}*/
-          /*scrollbar={{ draggable: true }}*/
-          onSwiper={() => console.log("Swiper")}
-          onSlideChange={() => console.log("slide change")}
-        >
-          <SwiperSlide className="photo-home">
-            <div className="container-home">
-              <img src={photo1} alt="" />
-              <div className="text-home">
-                Monument commémoratif en mémoire des victimes de la SHOA pour la
-                ville de Luxembourg.
+        <div className="right">
+          <h1 className="titre-accueil">ACCUEIL</h1>
+          <hr className="separation-titre-accueil" />
+          <Swiper
+            className="allCarousel-home"
+            effect="fade"
+            spaceBetween={50}
+            slidesPerview={3}
+            autoplay={true}
+            /*navigation*/
+            /*pagination={{ clickable: true }}*/
+            /*scrollbar={{ draggable: true }}*/
+            onSwiper={() => console.log("Swiper")}
+            onSlideChange={() => console.log("slide change")}
+          >
+            <SwiperSlide className="photo-home">
+              <div className="container-home">
+                <img src={photo1} alt="" />
+                <div className="text-home">
+                  Monument commémoratif en mémoire des victimes de la SHOA pour
+                  la ville de Luxembourg.
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="photo-home">
-            <div className="container-home">
-              <img src={photo2} alt="" />
-              <div className="text-home">
-                Abords du Stade de foot du FC Krasnodar en RUSSIE
+            </SwiperSlide>
+            <SwiperSlide className="photo-home">
+              <div className="container-home">
+                <img src={photo2} alt="" />
+                <div className="text-home">
+                  Abords du Stade de foot du FC Krasnodar en RUSSIE
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="photo-home">
-            <div className="container-home">
-              <img src={photo4} alt="" />
-              <div className="text-home">Dallage Hôtel de ville Vincennes</div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="photo-home">
-            <div className="container-home">
-              <img src={photo3} alt="" />
-              <div className="text-home">Gare de Saint-Malo</div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-        <div className="presentation-accueil">
-          <h6 className="titre-paragraphe-accueil">
-            LE SCULPTEUR DE VOS PROJETS
-          </h6>
-          <p className="paragraphe-accueil">
-            Depuis les années 1980, La Générale du Granit vous propose de
-            concrétiser vos envies d'aménagements publics et privés. Elle offre
-            des services de qualité grâce à son savoir-faire français et des
-            produits bretons certifiés. À l’écoute, elle façonne sur mesure le
-            dallage de vos projets du bâtiment, de voirie ou de sculptures.
-            Notre savoir-faire repose sur l’alliance de la tradition et d’une
-            haute exigence de qualité.Toutes nos productions sont finies à la
-            main. Les gravures et décorations sont réalisées par nos meilleurs
-            compagnons. Grâce à des outils de production performants et à la
-            maîtrise de nos équipes, qu’importe vos idées nous les réalisons. De
-            la voirie standard à la plus complexe, nous vous garantissons le
-            même niveau de qualité. À l’écoute de vos désirs les plus chers,
-            nous vous proposons un choix très diversifié.
-          </p>
+            </SwiperSlide>
+            <SwiperSlide className="photo-home">
+              <div className="container-home">
+                <img src={photo4} alt="" />
+                <div className="text-home">
+                  Dallage Hôtel de ville Vincennes
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="photo-home">
+              <div className="container-home">
+                <img src={photo3} alt="" />
+                <div className="text-home">Gare de Saint-Malo</div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+          <div className="presentation-accueil">
+            <h6 className="titre-paragraphe-accueil">
+              LE SCULPTEUR DE VOS PROJETS
+            </h6>
+            <p className="paragraphe-accueil">
+              Depuis les années 1980, La Générale du Granit vous propose de
+              concrétiser vos envies d'aménagements publics et privés. Elle
+              offre des services de qualité grâce à son savoir-faire français et
+              des produits bretons certifiés. À l’écoute, elle façonne sur
+              mesure le dallage de vos projets du bâtiment, de voirie ou de
+              sculptures. Notre savoir-faire repose sur l’alliance de la
+              tradition et d’une haute exigence de qualité.Toutes nos
+              productions sont finies à la main. Les gravures et décorations
+              sont réalisées par nos meilleurs compagnons. Grâce à des outils de
+              production performants et à la maîtrise de nos équipes, qu’importe
+              vos idées nous les réalisons. De la voirie standard à la plus
+              complexe, nous vous garantissons le même niveau de qualité. À
+              l’écoute de vos désirs les plus chers, nous vous proposons un
+              choix très diversifié.
+            </p>
+          </div>
         </div>
       </div>
     </div>
