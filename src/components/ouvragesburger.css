@@ -1,7 +1,7 @@
 .list4,
 .list4 ul {
   padding: 0;
-  margin: 0;
+  margin: 10px auto;
   list-style: none;
   text-align: center;
 }
@@ -38,7 +38,7 @@
   width: 150px;
   background-image: linear-gradient(
     to bottom,
-    #58595b,
+    #6c6d71,
     #a0a0a0)
 }
 /* background des liens menus */

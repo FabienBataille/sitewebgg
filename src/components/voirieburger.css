@@ -1,7 +1,7 @@
 .list2,
 .list2 ul {
   padding: 0;
-  margin: 0;
+  margin: auto;
   list-style: none;
   text-align: center;
 }
@@ -23,6 +23,7 @@
 .list2 ul {
   position: absolute;
   left: -15px;
+  top: 40px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
@@ -40,7 +41,7 @@
   width: 80px;
   background-image: linear-gradient(
     to bottom,
-    #58595b,
+    #6c6d71,
     #a0a0a0)
 }
 /* background des liens menus */

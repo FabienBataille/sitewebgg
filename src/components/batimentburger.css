@@ -1,7 +1,7 @@
 .list3,
 .list3 ul {
   padding: 0;
-  margin: 0;
+  margin: auto;
   list-style: none;
   text-align: center;
 }
@@ -26,7 +26,8 @@
 
 .list3 ul {
   position: absolute;
-  top: 34px; left: -16px;
+  top: 39px;
+  left: -16px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
@@ -41,7 +42,7 @@
 .list3 li:hover ul {
   max-height: 25em;
   width: 100px;
-  background-image: linear-gradient(to bottom, #58595b, #a0a0a0);
+  background-image: linear-gradient(to bottom, #6c6d71, #a0a0a0);
 }
 
 li {
@@ -57,33 +58,33 @@ li {
   color: #ffffff;
 }
 
-.first{
+.first {
   margin-top: 5px;
 }
 
-h6{
+h6 {
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 11px;
   cursor: pointer;
 }
 
-.second{
+.second {
   padding: 0px;
   height: 30px;
 }
 
-h6:hover{
+h6:hover {
   color: #cf790f;
 }
 
-.titre{
- margin-bottom: -5px;
- padding-bottom: 5px; 
- font-size: 16px;
- cursor: pointer;
+.titre {
+  margin-bottom: -5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.titre:hover{
+.titre:hover {
   font-weight: bold;
 }
