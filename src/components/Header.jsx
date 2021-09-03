@@ -15,7 +15,9 @@ function Header() {
   return (
     <div className="Header">
       <div className="logo_generale">
-        <img src={gg} className="gg" alt="logo-header" />
+        <Link to="/">
+          <img src={gg} className="gg" alt="logo-header" />
+        </Link>
       </div>
       <div className="nav_bar">
         <ul>

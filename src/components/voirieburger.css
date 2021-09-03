@@ -23,7 +23,7 @@
 .list2 ul {
   position: absolute;
   left: -15px;
-  top: 40px;
+  top: 38px;
   display: flex;
   flex-direction: column;
   z-index: 1000;

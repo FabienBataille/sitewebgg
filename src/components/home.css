@@ -39,6 +39,7 @@
   margin-top: 0px;
   padding-top: 10px;
   overflow-y: scroll;
+  direction: rtl;
 }
 
 .actualites p {
@@ -142,6 +143,7 @@
 .presentation-accueil {
   right: 74px;
   width: 600px;
+  margin-top: -60px
 }
 
 .titre-paragraphe-accueil {
@@ -156,6 +158,7 @@
 .paragraphe-accueil {
   width: 650px;
   margin-left: 50px;
+  margin-top: -20px;
   font-size: 18px;
   color: rgb(60, 60, 60);
   text-align: justify;

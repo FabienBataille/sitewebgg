@@ -22,18 +22,17 @@
 }
 .list ul {
   position: absolute;
-  top: 35px;
+  top: 37px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
   max-height: 0;
   left: 0;
   right: 0;
-  top: 40px;
   overflow: hidden;
-  -moz-transition: 0.1s all 0s;
+  -moz-transition: 0s all 0s;
   -webkit-transition: 0s all 0s;
-  transition: 0.1s all 0s;
+  transition: 0s all 0s;
 }
 .list li:hover ul {
   max-height: 15em;

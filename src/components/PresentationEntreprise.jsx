@@ -36,7 +36,7 @@ function PresentationEntreprise() {
         </p>
       </div>
       <div className="div2">
-        <h6 className="français">LA FABRICATION CERTIFIÉE 100% FRANÇAISE :</h6>
+        <h5 className="français">LA FABRICATION CERTIFIÉE 100% FRANÇAISE :</h5>
         <p className="en_choisissant">
           En choisissant les produits de voirie La Générale du Granit, vous
           contribuez au respect d'accords essentiels :

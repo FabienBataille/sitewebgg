@@ -111,9 +111,9 @@ function Home() {
             </SwiperSlide>
           </Swiper>
           <div className="presentation-accueil">
-            <h6 className="titre-paragraphe-accueil">
+            <h5 className="titre-paragraphe-accueil">
               LE SCULPTEUR DE VOS PROJETS
-            </h6>
+            </h5>
             <p className="paragraphe-accueil">
               Depuis les années 1980, La Générale du Granit vous propose de
               concrétiser vos envies d'aménagements publics et privés. Elle
