@@ -1,5 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
+import HeaderFuneraire from "./components/HeaderFuneraire";
+import AccueilFuneraire from "./components/AccueilFuneraire"
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Histoire from "./components/Histoire";
@@ -33,6 +35,10 @@ function App() {
       <Router>
         <div>
           <Switch>
+            <Route exact path="/accueil-funeraire">
+              <HeaderFuneraire />
+              <AccueilFuneraire />
+            </Route>
             <Route exact path="/histoire">
               <Header />
               <Histoire />

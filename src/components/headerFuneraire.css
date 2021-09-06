@@ -1,0 +1,84 @@
+.HeaderFuneraire {
+  display: flex;
+  justify-content: space-between;
+
+  height: 110px;
+}
+
+.logo_monumentaliste {
+  width: 375px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 235px;
+}
+
+.menu-gauche {
+  display: flex;
+  justify-content: space-between;
+  width: 781px;
+  margin-bottom: 7px;
+  padding-left: 0px;
+}
+
+.menu-gauche li {
+  font-size: 14px;
+  height: 18px;
+  margin-top: 7px;
+  padding: 0px 4px 0px 4px;
+  margin-left: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.menu-gauche li:hover {
+  font-weight: bold;
+}
+
+.homeIcon_funeraire {
+  width: 30px;
+  padding-top: 5px;
+  margin-top: -15px;
+}
+
+.menu-entier {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+  height: 110px;
+  background-image: url("../images/background_essai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.configurateur {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  background-color: rgb(14 112 152);
+  margin-right: -10px;
+}
+
+.monument_config {
+  width: 140px;
+  height: 120px;
+  margin: -10px auto;
+}
+
+.configurateur:hover{
+    content: url('../photos-header-funeraire/config2.png');
+    
+}
+
+.text-configurateur {
+  margin-top: -12px;
+  color: rgb(207, 121, 15);
+}
+
+.mailIcon_funeraire {
+    border: none;
+    background: none;
+    padding-top: 5px;
+    margin-top: -14px;
+    width: 25px;
+  }

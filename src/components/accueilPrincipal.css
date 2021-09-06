@@ -1,10 +1,11 @@
 .AccueilPrincipal {
   text-align: center;
-  height: 580px;
-  background-image: url("../fonds/fond1.jpg");
+  height: 920px;
+  background-image: url("../fonds/fond2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  border: solid;
 }
 
 .logo-header-accueil-principal{
@@ -38,7 +39,6 @@
   margin-left: 30px;
   background-image: url("../photo-accueil-principal/photo-voirie.jpg");
   background-size: cover;
-  opacity: 0.6;
 }
 
 .rubrique-funeraire{
@@ -50,10 +50,14 @@
   margin-right: 30px;
   background-image: url("../photo-accueil-principal/photo-funeraire.jpeg");
   background-size: cover;
-  opacity: 0.6;
 }
 
-.rubrique-funeraire :hover{
+.rubrique-funeraire:hover{
    box-shadow: 5px 5px 5px 5px;
-   color: red;
+   font-size: 40px;
+}
+
+.rubrique-voirie:hover{
+  box-shadow: 5px 5px 5px 5px;
+  font-size: 40px;
 }
