@@ -1,9 +1,11 @@
 import "./App.css";
 import Header from "./components/Header";
 import HeaderFuneraire from "./components/HeaderFuneraire";
-import AccueilFuneraire from "./components/AccueilFuneraire"
+import AccueilFuneraire from "./components/AccueilFuneraire";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import FooterFuneraire from "./components/FooterFuneraire";
+
 import Histoire from "./components/Histoire";
 import Extraction from "./components/Extraction";
 import Fabrication from "./components/Fabrication";
@@ -38,6 +40,7 @@ function App() {
             <Route exact path="/accueil-funeraire">
               <HeaderFuneraire />
               <AccueilFuneraire />
+              <FooterFuneraire />
             </Route>
             <Route exact path="/histoire">
               <Header />

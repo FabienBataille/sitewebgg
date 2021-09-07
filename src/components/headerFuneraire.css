@@ -1,7 +1,7 @@
 .HeaderFuneraire {
   display: flex;
   justify-content: space-between;
-
+  width: 1024px;
   height: 110px;
 }
 
@@ -54,9 +54,9 @@
 .configurateur {
   display: flex;
   flex-direction: column;
-  width: 18%;
+  width: 163px;
   background-color: rgb(14 112 152);
-  margin-right: -10px;
+  margin-right: 0px;
 }
 
 .monument_config {
@@ -68,7 +68,7 @@
 .configurateur:hover{
     content: url('../photos-header-funeraire/config2.png');
     padding: 5px 10px 5px 10px;
-    width: 163px;
+    width: 140px;
     background-color: rgb(207, 121, 15);
     
 }

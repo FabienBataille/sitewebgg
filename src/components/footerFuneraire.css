@@ -1,0 +1,132 @@
+.m_funeraire {
+  width: 70px;
+  height: 60px;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.partenaires_funeraire {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  height: 75px;
+  margin-left: -80px;
+}
+
+.produit_bretagne_funeraire {
+  width: 50px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+.indication_funeraire {
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+.adresse_funeraire p {
+  font-size: 9px;
+  color: #bdbdbd;
+}
+
+.adresse_funeraire h1 {
+  font-size: 12px;
+  color: #bdbdbd;
+}
+
+.FooterFuneraire {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../photos-header-funeraire/background_header_monumentalistes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.société_funeraire {
+  width: 200px;
+  height: 75px;
+  margin-left: -5px;
+}
+
+.société_funeraire p {
+  margin: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.société_funeraire h1 {
+  text-align: left;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.mention_funeraire p {
+  text-align: right;
+  padding-right: 10px;
+  color: #ffffff;
+}
+
+.mention_funeraire {
+  margin-top: 10px;
+}
+
+.separation1_funeraire {
+  height: 70px;
+  width: 1px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.separation2_funeraire {
+  height: 70px;
+  width: 1px;
+  position: relative;
+  top: 5px;
+  left: -50px;
+}
+.separation3_funeraire {
+  height: 70px;
+  width: 1px;
+  position: relative;
+  top: 5px;
+  left: -30px;
+}
+
+.separation4_funeraire {
+  height: 70px;
+  width: 1px;
+  position: relative;
+  top: 5px;
+  left: -20px;
+}
+
+.adresse_funeraire {
+  margin-top: -10px;
+}
+
+.Footer_funeraire {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.logo_gg_funeraire {
+  width: 70px;
+  height: 70px;
+  margin-top: 5px;
+}
+
+.une-marque {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -50px;
+  width: 210px;
+}
+
+.une-marque h1 {
+  color: #ffffff;
+  margin-top: 28px;
+}
