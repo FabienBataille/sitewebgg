@@ -46,7 +46,7 @@
   justify-content: space-between;
   width: 85%;
   height: 110px;
-  background-image: url("../images/background_essai.jpg");
+  background-image: url("../photos-header-funeraire/background_header_monumentalistes.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -67,6 +67,9 @@
 
 .configurateur:hover{
     content: url('../photos-header-funeraire/config2.png');
+    padding: 5px 10px 5px 10px;
+    width: 163px;
+    background-color: rgb(207, 121, 15);
     
 }
 

@@ -32,7 +32,7 @@ function Home() {
               <img src={actu1} className="actu3" alt="" />
               <p>
                 Après avoir réalisé les aménagements du stade de football de
-                Kransnodar en RUSSIE, le hasard à...
+                Kransnodar en RUSSIE, le hasard à
               </p>
             </div>
             <img
@@ -45,7 +45,7 @@ function Home() {
               <img src={actu2} className="actu2" alt="" />
               <p>
                 Nous sommes très heureux de vous accueillir sur le nouveau site
-                de notre activité voirie ...
+                de notre activité voirie
               </p>
             </div>
             <img
@@ -58,7 +58,7 @@ function Home() {
               <img src={actu3} className="actu3" alt="" />
               <p>
                 Un nouveau polissoir à plat a été installé au premier semestre
-                2017. Cet outil nous...
+                2017. Cet outil nous
               </p>
             </div>
           </div>

@@ -1,15 +1,15 @@
 .actu3 {
-  width: 250px;
+  width: 240px;
   height: 56%;
 }
 
 .actu2 {
-  width: 250px;
+  width: 240px;
   height: 56%;
 }
 
 .actu1 {
-  width: 250px;
+  width: 240px;
   height: 56%;
 }
 
@@ -34,7 +34,7 @@
 
 .Home .actualites {
   width: 270px;
-  height: 800px;
+  height: 810px;
   margin-left: 1px;
   margin-top: 0px;
   padding-top: 10px;
@@ -44,8 +44,8 @@
 
 .actualites p {
   color: #ffffff;
-  width: 250px;
-  text-align: justify;
+  width: 240px;
+  text-align: Left;
   font-size: 12px;
 }
 
@@ -59,7 +59,7 @@
   flex-direction: column;
   width: 280px;
   text-align: center;
-  height: 870px;
+  height: 880px;
   margin-top: 5px;
   margin-left: 1px;
   border-radius: 0px 10px 10px 0px;;
@@ -133,7 +133,7 @@
 
 
 .Home {
-  height: 880px;
+  height: 890px;
   background-image: url("../fonds/fond1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
