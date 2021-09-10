@@ -3,3 +3,22 @@
   width: 1024px;
   margin: auto;
 }
+
+.Header {
+  position: fixed;
+  top: 0px;
+  width: 1024px;
+  z-index: 2;
+}
+
+.BigHeader{
+  position: fixed;
+  top: 0px;
+  width: 1024px;
+  z-index: 3;
+}
+
+.Home{
+  z-index: 1;
+  margin-top: 150px;
+}
