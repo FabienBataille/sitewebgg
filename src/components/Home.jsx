@@ -72,6 +72,7 @@ function Home() {
             spaceBetween={50}
             slidesPerview={3}
             autoplay={true}
+            z-index={1}
             /*navigation*/
             /*pagination={{ clickable: true }}*/
             /*scrollbar={{ draggable: true }}*/

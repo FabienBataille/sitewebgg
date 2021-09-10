@@ -1,12 +1,12 @@
+import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import BigHeader from "./components/BigHeader"
+import BigHeader from "./components/BigHeader";
 import HeaderFuneraire from "./components/HeaderFuneraire";
 import AccueilFuneraire from "./components/AccueilFuneraire";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import FooterFuneraire from "./components/FooterFuneraire";
-
 import Histoire from "./components/Histoire";
 import Extraction from "./components/Extraction";
 import Fabrication from "./components/Fabrication";
@@ -32,7 +32,35 @@ import Contact from "./components/Contact";
 import PresentationEntreprise from "./components/PresentationEntreprise";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+const { useState, useEffect } = React;
+
 function App() {
+  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible2, setIsVisible2] = useState(true);
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const listenToScroll = () => {
+    let heightToHideFrom = 70;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+
+    if (winScroll < heightToHideFrom) {
+      isVisible && setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+
+    if (winScroll > heightToHideFrom) {
+      isVisible2 && setIsVisible2(true);
+    } else {
+      setIsVisible2(false);
+    }
+  };
   return (
     <div className="App">
       <Router>
@@ -154,8 +182,8 @@ function App() {
               <Footer />
             </Route>
             <Route exact path="/accueil">
-              <BigHeader />
-              <Header />
+              {isVisible2 && <Header />}
+              {isVisible && <BigHeader />}
               <Home />
               <Footer />
             </Route>
