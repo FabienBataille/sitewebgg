@@ -1,5 +1,5 @@
 import React from "react";
-import gg from "../logos/logo_essai.png";
+import logo_banniere from "../logos/logo_banniere.png";
 
 import homeIcon from "../images/Home_icon.png";
 import mailIcon from "../images/NousContacter.png";
@@ -16,11 +16,11 @@ function Header() {
     <div className="Header">
       <div className="logo_generale">
         <Link to="/">
-          <img src={gg} className="gg" alt="logo-header" />
+          <img src={logo_banniere} className="logo_banniere" alt="" />
         </Link>
       </div>
-      <div className="nav_bar">
-        <ul>
+      
+        <ul className="nav_bar">
           <li className="tagIcon">
             <Link to="/accueil">
               <img src={homeIcon} className="homeIcon" alt="homeIcon" />
@@ -47,7 +47,6 @@ function Header() {
             </Link>
           </li>
         </ul>
-      </div>
     </div>
   );
 }

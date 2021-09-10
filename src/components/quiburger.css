@@ -12,6 +12,7 @@
 }
 .list ul li {
   display: inherit;
+  margin: auto;
   border-radius: 0;
 }
 .list ul li:hover {
@@ -22,13 +23,12 @@
 }
 .list ul {
   position: absolute;
-  top: 37px;
+  top: 34px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
   max-height: 0;
-  left: 0;
-  right: 0;
+  left: -3px;
   overflow: hidden;
   -moz-transition: 0s all 0s;
   -webkit-transition: 0s all 0s;

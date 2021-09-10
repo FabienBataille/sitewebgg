@@ -12,6 +12,7 @@
 }
 .list4 ul li {
   display: inherit;
+  margin: auto;
   border-radius: 0;
 }
 .list4 ul li:hover {
@@ -22,7 +23,8 @@
 }
 .list4 ul {
   position: absolute;
-  top: 25px;
+  top: 24px;
+  left: -2px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
