@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import BigHeader from "./components/BigHeader"
 import HeaderFuneraire from "./components/HeaderFuneraire";
 import AccueilFuneraire from "./components/AccueilFuneraire";
 import Home from "./components/Home";
@@ -153,6 +154,7 @@ function App() {
               <Footer />
             </Route>
             <Route exact path="/accueil">
+              <BigHeader />
               <Header />
               <Home />
               <Footer />

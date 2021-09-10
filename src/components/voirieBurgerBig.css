@@ -1,0 +1,99 @@
+.list2-big,
+.list2-big ul {
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  text-align: center;
+}
+.list2-big li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+.list2-big ul li {
+  display: inherit;
+  margin: -10px auto;
+  padding-bottom: 10px;
+  border-radius: 0;
+}
+.list2-big ul li:hover {
+  border-radius: 0;
+}
+.list2-big ul li:last-child {
+  border-radius: 0 0 8px 8px;
+}
+.list2-big ul {
+  position: absolute;
+  left: -35px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  max-height: 0;
+  
+
+  overflow: hidden;
+  -moz-transition: 0s all 0s;
+  -webkit-transition: 0s all 0s;
+  transition: 0s all 0s;
+}
+
+.list2-big li:hover ul {
+  max-height: 15em;
+  width: 120px;
+  background-image: linear-gradient(
+    to bottom,
+    #6c6d71,
+    #a0a0a0)
+}
+/* background des liens menus */
+.list2-big li:first-child {
+  color: #bdbdbd;
+}
+
+/* background des liens sous menus */
+.list2-big li:first-child {
+  color: #ffffff;
+}
+
+/* les a href */
+
+.list2-big ul a {
+  padding: 8px 0;
+}
+
+.list2-big li:hover a,
+.list2-big li li:hover a {
+  color: rgb(252, 249, 249);
+}
+
+.first{
+  margin-top: 5px;
+}
+
+h6{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.second{
+  padding: 0px;
+  height: 30px;
+}
+
+h6:hover{
+  color: #cf790f;
+}
+
+.titre{
+ margin-bottom: -5px;
+ padding-bottom: 5px; 
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.titre:hover{
+  font-weight: bold;
+}

@@ -1,0 +1,132 @@
+.BigHeader {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/background_essai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+  }
+   
+  
+   
+  .nav_bar_big {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-left: -30px;
+  }
+   
+  .gg_grand {
+    width: 350px;
+    height: 106px;
+    margin-left: 20px;
+    padding-top: 0px;
+  }
+   
+  .homeIcon_big {
+    width: 30px;
+    margin-top: -2px;
+  }
+   
+  .tagIcon_big {
+    border: none;
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+   
+  .nav_bar_big ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+   
+  .nav_bar_big ul li {
+    margin-bottom: 0px;
+    padding-top: 12px;
+    margin-top: 9px;
+  }
+   
+  .mailIcon_big {
+    border: none;
+    background: none;
+    margin-top: -5px;
+    width: 25px;
+  }
+  
+  .retour_big{
+    position: relative;
+    top: -13px; left: 850px;
+    width: 130px;
+    height: 15px;
+    color: rgb(53, 164, 180);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 14px;
+  }
+  
+  /*.Header {
+    display: flex;
+    background-image: url("../images/background_essai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -47px;
+  }
+  
+  .logo_generale {
+    width: 30vw;
+    padding-top: 5px;
+  }
+  
+  .nav_bar {
+    width: 70vw;
+    height: 30px;
+    margin-top: 40px;
+    padding: auto;
+  }
+  
+  
+  .gg {
+    width: 265px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .homeIcon {
+    width: 40px;
+  }
+  
+  .tagIcon {
+    border: none;
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
+  
+  li {
+    margin-bottom: 0px;
+    padding-top: 10px;
+  }
+  
+  .mailIcon {
+    border: none;
+    background: none;
+    padding-top: 8px;
+    width: 30px;
+  }*/
+  
