@@ -25,7 +25,7 @@
 .list2-big ul {
   position: absolute;
   left: -35px;
-  top: 35px;
+  top: 34px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
