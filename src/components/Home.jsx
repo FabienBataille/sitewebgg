@@ -83,7 +83,7 @@ function Home() {
               <div className="container-home">
                 <img src={photo1} alt="" />
                 <div className="text-home">
-                  Monument commémoratif en mémoire des victimes de la SHOA pour
+                  Monument commémoratif aux victimes de la SHOA pour
                   la ville de Luxembourg.
                 </div>
               </div>

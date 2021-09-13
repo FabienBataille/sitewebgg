@@ -44,11 +44,11 @@
 }
 
 .title-dalles {
-  font-size: small;
+  font-size: 16px;
   font-weight: bold;
   position: relative;
   left: 262px;
-  bottom: 35px;
+  bottom: 42px;
   width: 500px;
   color: rgb(75, 75, 75);
   background-color: rgba(200, 200, 200, 0.85);
@@ -58,11 +58,12 @@
 }
 
 .text-dalles {
-  font-size: small;
+  font-size: 13px;
   position: relative;
   left: 262px;
-  bottom: 35px;
+  bottom: 42px;
   width: 500px;
+  padding-bottom: 5px;
   border-radius: 0px 0px 10px 10px;
   color: rgb(75, 65, 65);
   background-color: rgba(200, 200, 200, 0.85);

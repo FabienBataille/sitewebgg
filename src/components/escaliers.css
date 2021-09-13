@@ -46,11 +46,11 @@
 }
 
 .title-escaliers {
-  font-size: small;
+  font-size: 16px;
   font-weight: bold;
   position: relative;
   left: 262px;
-  bottom: 35px;
+  bottom: 42px;
   width: 500px;
 
   background-color: rgba(200, 200, 200, 0.85);
@@ -60,11 +60,12 @@
 }
 
 .text-escaliers {
-  font-size: small;
+  font-size: 16px;
   position: relative;
   left: 262px;
-  bottom: 35px;
+  bottom: 42px;
   width: 500px;
+  padding-bottom: 5px;
   border-radius: 0px 0px 10px 10px;
 
   background-color: rgba(200, 200, 200, 0.85);

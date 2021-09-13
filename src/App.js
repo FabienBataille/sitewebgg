@@ -45,7 +45,7 @@ function App() {
   }, []);
 
   const listenToScroll = () => {
-    let heightToHideFrom = 70;
+    let heightToHideFrom = 30;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
 
@@ -182,7 +182,7 @@ function App() {
               <Footer />
             </Route>
             <Route exact path="/accueil">
-              {isVisible2 && <Header />}
+              {isVisible2 && <Header /> }
               {isVisible && <BigHeader />}
               <Home />
               <Footer />
