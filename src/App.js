@@ -72,117 +72,139 @@ function App() {
               <FooterFuneraire />
             </Route>
             <Route exact path="/histoire">
-              <Header />
+              {isVisible2 && <Header />}
+              {isVisible && <BigHeader />}
               <Histoire />
               <Footer />
             </Route>
             <Route exact path="/presentation-entreprise">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <PresentationEntreprise />
               <Footer />
             </Route>
             <Route exact path="/extraction">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Extraction />
               <Footer />
             </Route>
             <Route exact path="/fabrication">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Fabrication />
               <Footer />
             </Route>
             <Route exact path="/presentation-voirie">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <PresentationVoirie />
               <Footer />
             </Route>
             <Route exact path="/dalles">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Dalles />
               <Footer />
             </Route>
             <Route exact path="/bornes">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Bornes />
               <Footer />
             </Route>
             <Route exact path="/bordures">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Bordures />
               <Footer />
             </Route>
             <Route exact path="/paves">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Paves />
               <Footer />
             </Route>
             <Route exact path="/presentation-batiment">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <PresentationBatiment />
               <Footer />
             </Route>
             <Route exact path="/escaliers">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Escaliers />
               <Footer />
             </Route>
             <Route exact path="/revetement-de-sol">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <RevetementSol />
               <Footer />
             </Route>
             <Route exact path="/revetements-verticaux">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <RevetementV />
               <Footer />
             </Route>
             <Route exact path="/mobiliers-bancs">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <MobiliersBancs />
               <Footer />
             </Route>
             <Route exact path="/mobiliers-murets">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <MobiliersMurets />
               <Footer />
             </Route>
             <Route exact path="/mobiliers-fontaines">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <MobiliersFontaines />
               <Footer />
             </Route>
             <Route exact path="/artistique">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Artistique />
               <Footer />
             </Route>
             <Route exact path="/decorations">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Decorations />
               <Footer />
             </Route>
             <Route exact path="/origines">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Origines />
               <Footer />
             </Route>
             <Route exact path="/granit-voirie">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Voirie />
               <Footer />
             </Route>
             <Route exact path="/granit-batiment">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Batiment />
               <Footer />
             </Route>
             <Route exact path="/contact">
-              <Header />
+            {isVisible2 && <Header /> }
+              {isVisible && <BigHeader />}
               <Contact />
               <Footer />
             </Route>
             <Route exact path="/accueil">
-              {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Home />
               <Footer />
