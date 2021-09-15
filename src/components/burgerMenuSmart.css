@@ -1,0 +1,105 @@
+.list-big,
+.list-big ul {
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  text-align: center;
+}
+.list-big li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+.list-big ul li {
+  display: inherit;
+  margin: -10px auto;
+  border-radius: 0;
+}
+.list-big ul li:hover {
+  border-radius: 0;
+}
+.list-big ul li:last-child {
+  border-radius: 0 0 8px 8px;
+}
+.list-big ul {
+  position: absolute;
+  top: 33px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  max-height: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  -moz-transition: 0s all 0s;
+  -webkit-transition: 0s all 0s;
+  transition: 0s all 0s;
+}
+.list-big li:hover ul {
+  max-height: 15em;
+  width: 150px;
+  background-image: linear-gradient(
+    to bottom,
+   #6c6d71 ,
+    #a0a0a0)
+}
+/* background des liens menus */
+.list-big li:first-child {
+  color: #ffffff;
+}
+
+/* background des liens sous menus */
+.list-big li:first-child li {
+  color: #ffffff;
+}
+
+/* les a href */
+
+.list-big ul a {
+  padding: 8px 0;
+}
+
+.list-big li:hover a,
+.list-big li li:hover a {
+  color: #ffffff;
+}
+
+.first{
+  margin-top: 5px;
+}
+
+h6{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.second{
+  padding: 0px;
+  height: 30px;
+}
+
+h6:hover{
+  color: #cf790f;
+}
+
+.titre{
+ margin-bottom: -5px;
+ padding-bottom: 5px; 
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.titre:hover{
+  font-weight: bold;
+}
+
+Link{
+  border: solid;
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+
+

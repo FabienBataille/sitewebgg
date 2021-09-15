@@ -6,6 +6,7 @@ import mailIcon from "../images/NousContacter.png";
 import "./bigHeader.css";
 import QuiBurgerBig from "./QuiBurgerBig";
 import VoirieBurgerBig from "./VoirieBurgerBig";
+import BurgerMenuSmart from "./BurgerMenuSmart";
 import BatimentBurgerBig from "./BatimentBurgerBig";
 import OuvragesBurgerBig from "./OuvragesBurgerBig";
 import MateriauxBurgerBig from "./MateriauxBurgerBig";
@@ -17,7 +18,7 @@ function BigHeader() {
       <Link to="/">
         <img src={gg_grand} className="gg_grand" alt="logo-header" />
       </Link>
-
+      <BurgerMenuSmart />
       <div className="nav_bar_big">
         <ul>
           <li className="tagIcon_big">
