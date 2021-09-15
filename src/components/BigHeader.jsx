@@ -42,7 +42,7 @@ function BigHeader() {
           </li>
           <li className="mailIcon_big">
             <Link to="/contact">
-              <img src={mailIcon} className="mailIcon_big" alt="mailIcon" />
+              <img src={mailIcon} className="mailIcon-img_big" alt="mailIcon" />
             </Link>
           </li>
         </ul>
