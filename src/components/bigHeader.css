@@ -148,7 +148,6 @@
     justify-content: space-between;
     width: 414px;
     height: 90px;
-    border: solid;
     background-size: 414p 90px;
   }
   .BurgerMenuSmart {
@@ -157,7 +156,6 @@
     padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 10px;
-    border: solid;
   }
   .gg_grand {
     width: 250px;

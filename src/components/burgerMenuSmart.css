@@ -3,7 +3,7 @@
   padding: 0;
   margin: auto;
   list-style: none;
-  text-align: center;
+  text-align: flex-start;
 }
 .list-big li {
   display: inline-block;
@@ -12,7 +12,7 @@
 }
 .list-big ul li {
   display: inherit;
-  margin: -10px auto;
+  margin: 0px 0px 0px 15px;
   border-radius: 0;
 }
 .list-big ul li:hover {
@@ -23,13 +23,12 @@
 }
 .list-big ul {
   position: absolute;
-  top: 33px;
+  top: 90px;
+  left: -10px;
   display: flex;
   flex-direction: column;
   z-index: 1000;
   max-height: 0;
-  left: 0;
-  right: 0;
   overflow: hidden;
   -moz-transition: 0s all 0s;
   -webkit-transition: 0s all 0s;
@@ -68,26 +67,29 @@
   margin-top: 5px;
 }
 
-h6{
+.second-big h6{
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 11px;
+  font-size: 13px;
+  text-align: left;
   cursor: pointer;
 }
 
-.second{
+.second-big{
   padding: 0px;
   height: 30px;
+  text-align: left;
 }
 
 h6:hover{
   color: #cf790f;
+  margin-left: 0px;
 }
 
 .titre{
  margin-bottom: -5px;
  padding-bottom: 5px; 
- font-size: 16px;
+ font-size: 160px;
  cursor: pointer;
 }
 
@@ -96,13 +98,12 @@ h6:hover{
 }
 
 Link{
-  border: solid;
   margin-top: 0px;
   font-size: 50px;
 }
 
 .logo_burger{
-  width: 60px;
+  width: 75px;
 }
 
 
