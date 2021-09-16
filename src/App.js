@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
+import TestMobil from "./components/TestMobil";
 import BigHeader from "./components/BigHeader";
 import HeaderFuneraire from "./components/HeaderFuneraire";
 import AccueilFuneraire from "./components/AccueilFuneraire";
@@ -77,128 +78,133 @@ function App() {
               <Histoire />
               <Footer />
             </Route>
+            <Route exact path="/test">
+              {isVisible2 && <Header />}
+              {isVisible && <BigHeader />}
+              <TestMobil />
+            </Route>
             <Route exact path="/presentation-entreprise">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <PresentationEntreprise />
               <Footer />
             </Route>
             <Route exact path="/extraction">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Extraction />
               <Footer />
             </Route>
             <Route exact path="/fabrication">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Fabrication />
               <Footer />
             </Route>
             <Route exact path="/presentation-voirie">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <PresentationVoirie />
               <Footer />
             </Route>
             <Route exact path="/dalles">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Dalles />
               <Footer />
             </Route>
             <Route exact path="/bornes">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Bornes />
               <Footer />
             </Route>
             <Route exact path="/bordures">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Bordures />
               <Footer />
             </Route>
             <Route exact path="/paves">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Paves />
               <Footer />
             </Route>
             <Route exact path="/presentation-batiment">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <PresentationBatiment />
               <Footer />
             </Route>
             <Route exact path="/escaliers">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Escaliers />
               <Footer />
             </Route>
             <Route exact path="/revetement-de-sol">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <RevetementSol />
               <Footer />
             </Route>
             <Route exact path="/revetements-verticaux">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <RevetementV />
               <Footer />
             </Route>
             <Route exact path="/mobiliers-bancs">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <MobiliersBancs />
               <Footer />
             </Route>
             <Route exact path="/mobiliers-murets">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <MobiliersMurets />
               <Footer />
             </Route>
             <Route exact path="/mobiliers-fontaines">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <MobiliersFontaines />
               <Footer />
             </Route>
             <Route exact path="/artistique">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Artistique />
               <Footer />
             </Route>
             <Route exact path="/decorations">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Decorations />
               <Footer />
             </Route>
             <Route exact path="/origines">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Origines />
               <Footer />
             </Route>
             <Route exact path="/granit-voirie">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Voirie />
               <Footer />
             </Route>
             <Route exact path="/granit-batiment">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Batiment />
               <Footer />
             </Route>
             <Route exact path="/contact">
-            {isVisible2 && <Header /> }
+              {isVisible2 && <Header />}
               {isVisible && <BigHeader />}
               <Contact />
               <Footer />

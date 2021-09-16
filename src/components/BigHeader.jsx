@@ -15,10 +15,11 @@ import { Link } from "react-router-dom";
 function BigHeader() {
   return (
     <div className="BigHeader">
+      <BurgerMenuSmart />
+
       <Link to="/">
         <img src={gg_grand} className="gg_grand" alt="logo-header" />
       </Link>
-      <BurgerMenuSmart />
       <div className="nav_bar_big">
         <ul>
           <li className="tagIcon_big">

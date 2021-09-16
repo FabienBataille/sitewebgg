@@ -140,18 +140,30 @@
 @media screen and (max-width: 414px) {
   .nav_bar_big ul {
     display: none;
+    width: 414px
   }
   .BigHeader {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 414px;
+    height: 90px;
+    border: solid;
+    background-size: 414p 90px;
   }
   .BurgerMenuSmart {
-    width: 150px;
+    width: 100px;
+    height: 85px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    border: solid;
   }
   .gg_grand {
-    width: 350px;
-    height: 106px;
-    margin-left: -10px;
-    padding-top: 10px;
+    width: 250px;
+    height: 75px;
+    margin-top: 0px;
+    margin-left: 25px;
   }
 
 }
